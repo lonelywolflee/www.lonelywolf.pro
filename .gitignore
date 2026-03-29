@@ -16,5 +16,8 @@ Thumbs.db
 *.swo
 *~
 
+# Node
+node_modules/
+
 # env file
 .env
