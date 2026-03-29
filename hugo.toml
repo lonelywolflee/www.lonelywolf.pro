@@ -1,0 +1,27 @@
+baseURL = 'https://www.lonelywolf.pro/'
+defaultContentLanguage = 'ko'
+title = 'lonelywolf'
+
+[languages]
+  [languages.ko]
+    languageCode = 'ko-KR'
+    languageName = '한국어'
+    weight = 1
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    weight = 2
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = true
+
+[sitemap]
+  changeFreq = 'weekly'
+  priority = 0.5
+
+enableRobotsTXT = true
