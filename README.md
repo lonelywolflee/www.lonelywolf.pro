@@ -49,13 +49,13 @@ hugo server --buildDrafts --bind 0.0.0.0
 
 ```bash
 # 블로그 글 (한국어)
-hugo new content blog/2024-03-30-my-first-post.md
+hugo new content blog/2024-03-30-my-first-post.md --contentDir content/ko
 
 # 블로그 글 (영어)
 hugo new content blog/2024-03-30-my-first-post.md --contentDir content/en
 
-# 프로젝트 소개
-hugo new content projects/my-project.md
+# 프로젝트 소개 (한국어)
+hugo new content projects/my-project.md --contentDir content/ko
 ```
 
 #### Front Matter 예시
@@ -77,19 +77,24 @@ draft: false
 
 ```
 content/
-├── _index.md              # 한국어 홈
-├── about.md               # 한국어 소개
-├── blog/
-│   └── my-post.md         # 한국어 블로그 글
-├── projects/
-│   └── my-project.md      # 한국어 프로젝트
-└── en/
-    ├── _index.md           # 영어 홈
-    ├── about.md            # 영어 소개
+├── ko/                        # 한국어 콘텐츠
+│   ├── _index.md              # 홈
+│   ├── about.md               # 소개
+│   ├── blog/
+│   │   ├── _index.md          # 블로그 목록
+│   │   └── my-post.md         # 블로그 글
+│   └── projects/
+│       ├── _index.md          # 프로젝트 목록
+│       └── my-project.md      # 프로젝트
+└── en/                        # 영어 콘텐츠 (같은 파일명)
+    ├── _index.md
+    ├── about.md
     ├── blog/
-    │   └── my-post.md      # 영어 블로그 글 (같은 파일명)
+    │   ├── _index.md
+    │   └── my-post.md
     └── projects/
-        └── my-project.md   # 영어 프로젝트
+        ├── _index.md
+        └── my-project.md
 ```
 
 같은 파일명을 사용하면 Hugo가 자동으로 언어 전환 링크를 생성한다.

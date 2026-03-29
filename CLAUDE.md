@@ -19,6 +19,8 @@ Cloudflare Pages에 배포되며, 한국어/영어 다국어(i18n)를 지원한�
 ## 기술 스택
 
 - **SSG**: Hugo (extended)
+- **CSS**: Tailwind CSS (PostCSS, Hugo Pipes)
+- **테마**: `themes/lonelywolf/` (커스텀)
 - **배포**: Cloudflare Pages
 - **다국어**: Hugo i18n (`defaultContentLanguage = 'ko'`, 영어는 `/en/` 경로)
 
@@ -32,7 +34,7 @@ hugo server --buildDrafts
 hugo --minify
 
 # 새 블로그 글 작성 (한국어)
-hugo new content blog/my-post.md
+hugo new content blog/my-post.md --contentDir content/ko
 
 # 새 블로그 글 작성 (영어)
 hugo new content blog/my-post.md --contentDir content/en
@@ -40,7 +42,7 @@ hugo new content blog/my-post.md --contentDir content/en
 
 ## 콘텐츠 작성 규칙
 
-- 한국어 콘텐츠: `content/` 하위에 작성
+- 한국어 콘텐츠: `content/ko/` 하위에 작성
 - 영어 콘텐츠: `content/en/` 하위에 작성 (파일명 동일하게 유지)
 - Front matter에 `title`, `date`, `description`, `tags` 필수 포함
 - SEO를 위해 `description`은 150자 이내로 작성
