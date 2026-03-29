@@ -16,35 +16,35 @@ pdf: true
 
 ## Skills
 
-**Framework** : <u>Gin</u>, <u>Fiber</u>, <u>Fx</u>, <u>Spring/Spring Boot</u>, <u>Flutter</u>, <u>VueJs</u>, Android, Django, NodeJs, OSGi, Vert.x
-**DB** : <u>JPA</u>, <u>MariaDB</u>, <u>MySql</u>, MyBatis, DynamoDb, MongoDb, PostgresDb
-**Language** : <u>Go</u>, <u>Kotlin</u>, <u>Dart</u>, <u>Java</u>, <u>Python</u>, <u>Typescript</u>, <u>JavaScript</u>, <u>C/C++</u>, <u>Scala</u>, Delphi, C#, R
+**Framework** : <u>Gin</u>, <u>Fiber</u>, <u>Fx</u>, <u>Spring/Spring Boot</u>, <u>Flutter</u>, <u>VueJs</u>, Android, Django, NodeJs, OSGi, Vert.x <br>
+**DB** : <u>JPA</u>, <u>MariaDB</u>, <u>MySql</u>, MyBatis, DynamoDb, MongoDb, PostgresDb <br>
+**Language** : <u>Go</u>, <u>Kotlin</u>, <u>Dart</u>, <u>Java</u>, <u>Python</u>, <u>Typescript</u>, <u>JavaScript</u>, <u>C/C++</u>, <u>Scala</u>, Delphi, C#, R <br>
 **ETC** : <u>AWS</u>, Firebase, Observability, CI/CD, GCP, OOP, MSA..
 
 ---
 
 ## Career Summary
 
-**Cliwant ( 2025.11 – Present )**
+**Cliwant ( 2025.11 – Present )** <br>
 2025.02 - Present &nbsp; Senior Software Engineer
 
-**DOZN ( 2019.11 – 2025.02 )**
-2023.09 - 2025.02 &nbsp; R&D Lab Director
-2022.07 - 2025.02 &nbsp; Head of New Business Development
-2020.02 - 2022.06 &nbsp; R&D Team Lead
+**DOZN ( 2019.11 – 2025.02 )** <br>
+2023.09 - 2025.02 &nbsp; R&D Lab Director <br>
+2022.07 - 2025.02 &nbsp; Head of New Business Development <br>
+2020.02 - 2022.06 &nbsp; R&D Team Lead <br>
 2019.11 - 2020.02 &nbsp; Deputy General Manager (Vietnam Finance Business PM)
 
-**[US] Yosemite X, [KR] Blockchain Labs Inc. ( 2018.05 – 2019.05 )**
+**[US] Yosemite X, [KR] Blockchain Labs Inc. ( 2018.05 – 2019.05 )** <br>
 2018.05 - 2019.06 &nbsp; Server Developer
 
-**Viva Republica ( 2016.06 – 2018.05 )**
+**Viva Republica ( 2016.06 – 2018.05 )** <br>
 2016.06 - 2018.05 &nbsp; Server Developer
 
-**LG Electronics ( 2011.02 – 2016.05 )**
-2015.02 - 2016.05 &nbsp; Senior Researcher
+**LG Electronics ( 2011.02 – 2016.05 )** <br>
+2015.02 - 2016.05 &nbsp; Senior Researcher <br>
 2011.02 - 2015.02 &nbsp; Researcher
 
-**Innowireless ( 2009.02 - 2011.02 )**
+**Innowireless ( 2009.02 - 2011.02 )** <br>
 2009.02 - 2011.02 &nbsp; Researcher
 
 ---
@@ -162,7 +162,7 @@ pdf: true
 
 | | |
 |---|---|
-| **Desc** | Refactoring monolithic server into function-separated servers to reduce dependencies and enable parallel development. Identity verification service redundancy. |
+| **Desc** | ● Refactoring monolithic server into function-separated servers to reduce dependencies and enable parallel development <br> ● Identity verification service redundancy |
 | **Tech** | Java, Spring Boot, MySql, JPA, MyBatis |
 | **Role** | ● Server architecture refactoring while maintaining requirements and live service stability <br> ● Dependency analysis and server separation communication <br> ● Service stabilization through defensive code and policy module improvements <br> ● Identity verification redundancy with auto failover & failback (Inbiznet, Dream Security) |
 | **Result** | ● 1 Tier → 3 Tier separation <br> ● Common modules managed as "core" with API definitions for cross-service use <br> ● Enabled independent parallel development by eliminating code duplication and team separation |
@@ -175,7 +175,7 @@ pdf: true
 
 | | |
 |---|---|
-| **Desc** | Home Automation / Home Energy Monitoring System development. Rule Engine development. Smart Home Gateway control client development. |
+| **Desc** | ● Home Automation / Home Energy Monitoring System development <br> ● Rule Engine development. Rule Engine-based Scenario planning and development <br> ● Smart Home Gateway control client development |
 | **Tech** | Android, Java, OSGi, Vert.x, C, Parse, Python |
 | **Role** | ● REST Service for gateway external communication (Java, OSGi, Vert.x) <br> ● Energy usage data collection module via external BaaS (Java, Parse Cloud) <br> ● Gateway communication module for sensors and Arduino (C, Python, Java) <br> ● Information display and rule configuration module & App (Android, Java) |
 | **Result** | ● Gateway Control App development (100% contribution) <br> ● SDK for external Rule Component development |
@@ -193,7 +193,7 @@ pdf: true
 
 | | |
 |---|---|
-| **Desc** | Removing duplicate implementations and consolidating similar logic in a years-old library. Separating Android dependencies to enable Pure Java and Android usage. |
+| **Desc** | ● Removing duplicate implementations and consolidating similar logic in a years-old library <br> ● Separating Android dependencies to enable Pure Java and Android usage |
 | **Tech** | Android, Java |
 | **Role** | ● Full architecture design and refactoring (100% contribution) <br> ● Feature componentization, logic templating, module interface abstraction (Java) <br> ● Package-level modularization for separate usage (Java) |
 | **Result** | ● Core-level code lines reduced by 20% <br> ● Key class and logic usage doubled (duplicate/similar code consolidation) <br> ● Special performance bonus awarded |
@@ -212,7 +212,7 @@ pdf: true
 
 | | |
 |---|---|
-| **Desc** | Application development for telecom spec verification. Spec analysis, data logging/analysis/visualization components. |
+| **Desc** | ● Application development for telecom spec verification and new spec additions <br> ● Spec analysis, data logging/analysis/visualization component development (tables, chart graphs, etc.) |
 | **Tech** | Delphi, C/C++ |
 | **Role** | ● Real-time logging and monitoring/diagnosis/reporting module (Delphi, C/C++) <br> ● External client requirements analysis and UI/data visualization (Delphi) <br> ● Telecom spec analysis and verification module (Delphi, C/C++) |
 | **Result** | ● DOCOMO Zigbee scanner, LG/Samsung LTE spec verification <br> ● KT/SKT/LGU+ device verification response <br> ● Client maintenance and feature enhancement for product line |
@@ -221,7 +221,7 @@ pdf: true
 
 | | |
 |---|---|
-| **Desc** | Special request from KT. Solo developer, 100M+ KRW budget, 3-month development, 1-month verification. Screen feature registration and analysis for automated testing per device/service. |
+| **Desc** | ● Special request from KT. Solo developer, 100M+ KRW budget, 3-month development, 1-month verification <br> ● Screen feature registration and analysis for automated testing per device/service |
 | **Tech** | Delphi |
 | **Role** | ● Per-step video capture, selection, and feature input functionality <br> ● Adaptive analysis with new video addition for ambiguous results <br> ● Mouse-based video selection/registration UX proposal <br> ● Auto-generated HTML report with captured screenshots |
 | **Result** | ● Passed 72-hour stress test (no error, no fault) <br> ● Successful demo via proactively proposed video registration UX; positive end-user feedback <br> ● Seoul Phase 1 success led to contract expansion and nationwide Phase 2 |
@@ -230,11 +230,11 @@ pdf: true
 
 ## Education
 
-**B.B.A. Hanyang Cyber University. Seoul. (2010.03 - 2012.02, 4.35 / 4.5)**
+**B.B.A. Hanyang Cyber University. Seoul. (2010.03 - 2012.02, 4.35 / 4.5)** <br>
 Business Administration, HR/Organization/Strategy
 
-**M.S. Korea University. Seoul. (2006.03 - 2009.02, 4.23 / 4.5)**
+**M.S. Korea University. Seoul. (2006.03 - 2009.02, 4.23 / 4.5)** <br>
 Electrical & Computer Engineering
 
-**B.S. Korea University. Seoul. (2002.03 - 2006.02, 3.61 / 4.5)**
+**B.S. Korea University. Seoul. (2002.03 - 2006.02, 3.61 / 4.5)** <br>
 Electronic Engineering

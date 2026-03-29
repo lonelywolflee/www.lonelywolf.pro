@@ -16,35 +16,35 @@ pdf: true
 
 ## 보유 기술
 
-**Framework** : <u>Gin</u>, <u>Fiber</u>, <u>Fx</u>, <u>Spring/Spring Boot</u>, <u>Flutter</u>, <u>VueJs</u>, Android, Django, NodeJs, OSGi, Vert.x
-**DB** : <u>JPA</u>, <u>MariaDB</u>, <u>MySql</u>, MyBatis, DynamoDb, MongoDb, PostgresDb
-**Language** : <u>Go</u>, <u>Kotlin</u>, <u>Dart</u>, <u>Java</u>, <u>Python</u>, <u>Typescript</u>, <u>JavaScript</u>, <u>C/C++</u>, <u>Scala</u>, Delphi, C#, R
+**Framework** : <u>Gin</u>, <u>Fiber</u>, <u>Fx</u>, <u>Spring/Spring Boot</u>, <u>Flutter</u>, <u>VueJs</u>, Android, Django, NodeJs, OSGi, Vert.x <br>
+**DB** : <u>JPA</u>, <u>MariaDB</u>, <u>MySql</u>, MyBatis, DynamoDb, MongoDb, PostgresDb <br>
+**Language** : <u>Go</u>, <u>Kotlin</u>, <u>Dart</u>, <u>Java</u>, <u>Python</u>, <u>Typescript</u>, <u>JavaScript</u>, <u>C/C++</u>, <u>Scala</u>, Delphi, C#, R <br>
 **ETC** : <u>AWS</u>, Firebase, Observability, CI/CD, GCP, OOP, MSA..
 
 ---
 
 ## 약력
 
-**Cliwant ( 2025.11 – Present )**
+**Cliwant ( 2025.11 – Present )** <br>
 2025.02 - Present &nbsp; Senior Software Engineer
 
-**DOZN ( 2019.11 – 2025.02 )**
-2023.09 - 2025.02 &nbsp; 기업부설연구소 연구소장
-2022.07 - 2025.02 &nbsp; 신사업개발실 실장
-2020.02 - 2022.06 &nbsp; 연구개발팀 팀장
+**DOZN ( 2019.11 – 2025.02 )** <br>
+2023.09 - 2025.02 &nbsp; 기업부설연구소 연구소장 <br>
+2022.07 - 2025.02 &nbsp; 신사업개발실 실장 <br>
+2020.02 - 2022.06 &nbsp; 연구개발팀 팀장 <br>
 2019.11 - 2020.02 &nbsp; 개발팀 차장 (베트남 금융사업 PM)
 
-**[미] Yosemite X, [한] 블록체인랩스 주식회사 ( 2018.05 – 2019.05 )**
+**[미] Yosemite X, [한] 블록체인랩스 주식회사 ( 2018.05 – 2019.05 )** <br>
 2018.05 - 2019.06 &nbsp; 서버 개발자
 
-**Viva Republica ( 2016.06 – 2018.05 )**
+**Viva Republica ( 2016.06 – 2018.05 )** <br>
 2016.06 - 2018.05 &nbsp; 서버 개발자
 
-**LG Electronics ( 2011.02 – 2016.05 )**
-2015.02 - 2016.05 &nbsp; 선임연구원
+**LG Electronics ( 2011.02 – 2016.05 )** <br>
+2015.02 - 2016.05 &nbsp; 선임연구원 <br>
 2011.02 - 2015.02 &nbsp; 주임연구원
 
-**Innowireless ( 2009.02 - 2011.02 )**
+**Innowireless ( 2009.02 - 2011.02 )** <br>
 2009.02 - 2011.02 &nbsp; 주임연구원
 
 ---
@@ -143,7 +143,7 @@ pdf: true
 | **내용** | 임대인이 본인의 임대료 납입 여부를 신경 쓸 필요가 없이 관리를 해주고 납부/연체 관리를 대행하는 서비스 개발 |
 | **기술** | Kotlin, Spring Boot, Spring Cloud, Spring Config, MySql, JPA, Docker |
 | **역할** | ● Fiat Money(원화)와 Token(자체 토큰) 간의 sync & exchange transaction 관리 시스템 구현 <br> ● Token 과 Fiat Money 각각의 입출금기능 및 문제시 Rollback 기능 구현 |
-| **성과** | ● KFTC(금융결제원) open platform 을 사용한 fiat money 입출금 API 사용 신청 및 인가를 진행 하고 관련 기능을 구현 (with KYC) <br> ● Nice ID 및 Dream Security 와 본인 인증 서비스 계약 및 개발 진행 (독립적 본인인증 서비스) |
+| **성과** | ● KFTC(금융결제원) open platform 을 사용한 fiat money 입출금 API 사용 신청 및 인가를 진행하고 관련 기능을 구현 (with KYC) <br> ● Nice ID 및 Dream Security 와 본인 인증 서비스 계약 및 개발 진행 (독립적 본인인증 서비스) |
 
 ---
 
@@ -162,7 +162,7 @@ pdf: true
 
 | | |
 |---|---|
-| **내용** | 기존의 monolithic server를 기능별로 통합 및 분리를 하고 이를 간단한 구조로 server 분리를 하여 기능간 의존도를 낮추고 병렬 개발이 가능하도록 refactoring 진행. 본인 인증 서비스 이중화 구현 |
+| **내용** | ● 기존의 monolithic server를 기능별로 통합 및 분리를 하고 이를 간단한 구조로 server 분리를 하여 기능간 의존도를 낮추고 병렬 개발이 가능하도록 refactoring 진행 <br> ● 본인 인증 서비스 이중화 구현 |
 | **기술** | Java, Spring Boot, MySql, JPA, MyBatis |
 | **역할** | ● 기존의 요구사항을 유지하면서 운영 서비스에 영향이 가지 않게 서버구조를 refactoring <br> ● 각 기능별 의존도 정리 및 서버 분리를 위한 커뮤니케이션 진행 <br> ● 방어코드 추가 및 정책 모듈 구조 개선 등을 통해 서비스 안정화 <br> ● Inbiznet 과 Dream Security 를 사용하여 본인인증 서비스 이중화 및 자동 failover & failback 기능 구현 |
 | **성과** | ● 1 Tier → 3 Tier 로 분리 <br> ● 공통모듈을 "core" 로 관리하여 다른 서버(또는 서비스)에서 사용할 수 있게 API 정의 및 제공 <br> ● 중복 코드 사용을 방지하고 팀을 분리하여 각 기능별로 독립적으로 병렬 개발이 가능하도록 기반 구성 |
@@ -175,7 +175,7 @@ pdf: true
 
 | | |
 |---|---|
-| **내용** | Home Automation / Home Energy Monitoring System 개발. Rule Engine 개발. Smart Home Gateway 를 Control 하기 위한 Client 개발 |
+| **내용** | ● Home Automation / Home Energy Monitoring System 개발 <br> ● Rule Engine 개발. Rule Engine 을 사용한 Scenario 기획 및 개발 <br> ● Smart Home Gateway 를 Control 하기 위한 Client 개발 |
 | **기술** | Android, Java, OSGi, Vert.x, C, Parse, Python |
 | **역할** | ● Gateway에서 외부와 통신을 하기 위한 Rest Service 개발 (Java, OSGi, Vert.x) <br> ● 외부 BaaS를 사용하여 Energy 사용 정보를 수집 하기 위한 module 개발 (Java, Parse Cloud) <br> ● Gateway가 다른 센서 및 아두이노 등과 통신 하기 위한 module 개발 (C, Python, Java) <br> ● Gateway와 연동하여 정보를 보고 Rule을 설정 하기 위한 module 및 App 개발 (Android, Java) |
 | **성과** | ● Gateway Control App 개발 (기여도 100%) <br> ● 외부에서 Rule Component를 개발 하여 제공 가능 하도록 SDK 개발 |
@@ -193,7 +193,7 @@ pdf: true
 
 | | |
 |---|---|
-| **내용** | 수년간 개발/사용 중인 라이브러리의 중복 기능 구현 제거 및 유사 Logic 통합 정리. Android 의존성이 있는 부분을 분리 하고, Pure Java와 Android로 분리 사용 가능 하도록 설계 |
+| **내용** | ● 수년간 개발/사용 중인 라이브러리의 중복 기능 구현 제거 및 유사 Logic 통합 정리 <br> ● Android 의존성이 있는 부분을 분리 하고, Pure Java와 Android로 분리 사용 가능 하도록 설계 |
 | **기술** | Android, Java |
 | **역할** | ● 전체 구조 설계 및 Refactoring (기여도 100%) <br> ● 중복 기능 부품화. 유사 Logic template화. module 연결부 추상화 (Java) <br> ● 패키지 단위로 분리 사용 가능 하도록 모듈화 (Java) |
 | **성과** | ● Core 레벨 코드 라인 수가 이전 대비 20% 감소 <br> ● 주요 Class 및 Logic 사용 수가 2배 이상 증가 (중복 및 유사 코드 통합) <br> ● 프로젝트 수행 결과에 대해 특별 성과급 수여 |
@@ -212,7 +212,7 @@ pdf: true
 
 | | |
 |---|---|
-| **내용** | 통신 스펙 검증을 위한 어플리케이션 제작 및 신 스펙 추가. 스펙 분석, 데이터 로깅/분석/시각화 를 위한 컴포넌트 개발 |
+| **내용** | ● 통신 스펙 검증을 위한 어플리케이션 제작 및 신 스펙 추가 <br> ● 스펙 분석, 데이터 로깅/분석/시각화 를 위한 컴포넌트 개발 (테이블, 차트 그래프 등) |
 | **기술** | Delphi, C/C++ |
 | **역할** | ● 실시간 Logging 및 Monitoring/Diagnosis/Reporting 을 위한 module 개발 (Delphi, C/C++) <br> ● 외부고객 요구사항 분석 및 그에 따른 UI 와 데이터 시각화 기능 구현 (Delphi) <br> ● 통신 스펙을 분석하여 해당 스펙 검증을 위한 module 개발 (Delphi, C/C++) |
 | **성과** | ● DOCOMO Zigbee scanner, LG/Samsung LTE 스펙 검증 <br> ● KT/SKT/LGU+의 단말 검증 요청 대응 <br> ● 자사 제품군에 대한 고객사의 유지보수 및 기능 추가/보완 요청 대응 |
@@ -221,7 +221,7 @@ pdf: true
 
 | | |
 |---|---|
-| **내용** | KT의 특별 요청. 개발 인원 1인, 금액 1억 이상, 개발 기간 3개월, 검증 1개월. 단말 및 서비스 마다 각 동작 과정의 화면 특징을 등록하고 이를 분석하여 자동 실행/테스팅 |
+| **내용** | ● KT의 특별 요청. 개발 인원 1인, 금액 1억 이상, 개발 기간 3개월, 검증 1개월 <br> ● 단말 및 서비스 마다 각 동작 과정의 화면 특징을 등록하고 이를 분석하여 자동 실행/테스팅 |
 | **기술** | Delphi |
 | **역할** | ● 원하는 과정별 영상 캡쳐 후, 선택 및 원하는 특징 입력 기능 추가 <br> ● 자동 실행/테스팅 과정 중 분석이 모호한 부분을 찾으면 새로 영상을 추가하여 분석하는 기능 추가 <br> ● 사용자 편의를 위해 영상 선택 및 등록을 마우스로 간편히 할 수 있는 UX 제안/추가 <br> ● 분석 결과를 영상 캡쳐 화면과 함께 HTML 형식의 보고서 자동 생성 및 발송 기능 구현 |
 | **성과** | ● 72시간 stress 테스트 통과 (no error, no fault) <br> ● 주도적으로 제안한 영상 등록 UX로 인한 Demo 시연 성공 및 실무자(실 사용자)군의 긍정적 평가 <br> ● 서울 대상의 Phase 1의 성공으로, 대규모 계약 금액 증액 및 전국 대상 Phase 2 계약 체결 |
@@ -230,11 +230,11 @@ pdf: true
 
 ## 학력 사항
 
-**학사. 한양 사이버 대학. 서울. (2010.03 - 2012.02, 4.35 / 4.5)**
+**학사. 한양 사이버 대학. 서울. (2010.03 - 2012.02, 4.35 / 4.5)** <br>
 경영 학사, 경영 학과 인사/조직/전략 전공
 
-**석사. 고려대학교. 서울. (2006.03 - 2009.02, 4.23 / 4.5)**
+**석사. 고려대학교. 서울. (2006.03 - 2009.02, 4.23 / 4.5)** <br>
 공학 석사, 전자 전기 컴퓨터 공학 전공
 
-**학사. 고려대학교. 서울. (2002.03 - 2006.02, 3.61 / 4.5)**
+**학사. 고려대학교. 서울. (2002.03 - 2006.02, 3.61 / 4.5)** <br>
 공학 학사, 전자공학과
