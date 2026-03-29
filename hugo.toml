@@ -1,5 +1,6 @@
 baseURL = 'https://www.lonelywolf.pro/'
 defaultContentLanguage = 'ko'
+defaultContentLanguageInSubdir = true
 title = 'lonelywolf'
 theme = 'lonelywolf'
 enableRobotsTXT = true
@@ -24,15 +25,15 @@ paginate = 10
 [languages.ko.menus]
   [[languages.ko.menus.main]]
     name = '소개'
-    url = '/about/'
+    url = '/ko/about/'
     weight = 1
   [[languages.ko.menus.main]]
     name = '프로젝트'
-    url = '/projects/'
+    url = '/ko/projects/'
     weight = 2
   [[languages.ko.menus.main]]
     name = '블로그'
-    url = '/blog/'
+    url = '/ko/blog/'
     weight = 3
 
 [languages.en.menus]
