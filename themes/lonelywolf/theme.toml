@@ -1,0 +1,9 @@
+name = "lonelywolf"
+license = "MIT"
+licenselink = ""
+description = "Custom theme for www.lonelywolf.pro"
+tags = ["portfolio", "blog", "dark", "light", "tailwind", "i18n"]
+min_version = "0.128.0"
+
+[author]
+  name = "lonelywolf"

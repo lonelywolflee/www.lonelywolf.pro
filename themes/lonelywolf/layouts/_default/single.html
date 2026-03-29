@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+<article class="py-12">
+  {{/* Header */}}
+  <header class="mb-8">
+    <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white leading-tight">
+      {{ .Title }}
+    </h1>
+    <div class="mt-4 flex flex-wrap items-center gap-4 text-sm text-gray-500 dark:text-slate-500">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      {{ with .Params.tags }}
+      <div class="flex flex-wrap gap-2">
+        {{ range . }}
+        <span class="px-2 py-1 rounded-full bg-gray-100 dark:bg-slate-800 text-gray-600 dark:text-slate-400 text-xs">{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </header>
+
+  {{/* Content */}}
+  <div class="prose-custom">
+    {{ .Content }}
+  </div>
+
+  {{/* Navigation */}}
+  <nav class="mt-12 pt-8 border-t border-gray-200 dark:border-slate-700">
+    <div class="flex justify-between">
+      {{ with .PrevInSection }}
+      <a href="{{ .RelPermalink }}" class="group flex items-center gap-2 text-sm text-gray-600 dark:text-slate-400 hover:text-accent dark:hover:text-accent-dark transition-colors">
+        <span>&larr;</span>
+        <span class="group-hover:underline">{{ .Title }}</span>
+      </a>
+      {{ else }}<span></span>{{ end }}
+      {{ with .NextInSection }}
+      <a href="{{ .RelPermalink }}" class="group flex items-center gap-2 text-sm text-gray-600 dark:text-slate-400 hover:text-accent dark:hover:text-accent-dark transition-colors">
+        <span class="group-hover:underline">{{ .Title }}</span>
+        <span>&rarr;</span>
+      </a>
+      {{ end }}
+    </div>
+  </nav>
+</article>
+
+{{ end }}

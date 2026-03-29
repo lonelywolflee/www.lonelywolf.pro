@@ -1,0 +1,70 @@
+{{- if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ .Site.Params.author.name }}",
+  "url": "{{ .Site.BaseURL }}",
+  "jobTitle": "{{ .Site.Params.author.jobTitle }}",
+  "sameAs": [
+    {{- $links := slice -}}
+    {{- with .Site.Params.social.github }}{{ $links = $links | append (printf "https://github.com/%s" .) }}{{ end -}}
+    {{- with .Site.Params.social.linkedin }}{{ $links = $links | append (printf "https://linkedin.com/in/%s" .) }}{{ end -}}
+    {{- with .Site.Params.social.twitter }}{{ $links = $links | append (printf "https://x.com/%s" .) }}{{ end -}}
+    {{- range $i, $l := $links }}{{ if $i }},{{ end }}"{{ $l }}"{{ end -}}
+  ]
+}
+</script>
+{{- else if and (eq .Section "blog") .IsPage -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Params.author.name }}",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "{{ .Site.Params.author.name }}"
+  },
+  "mainEntityOfPage": "{{ .Permalink }}"
+}
+</script>
+{{- end -}}
+
+{{- if not .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "{{ .Site.Title }}",
+      "item": "{{ .Site.BaseURL }}"
+    }
+    {{- if .Parent -}}
+    ,{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ .Parent.Title }}",
+      "item": "{{ .Parent.Permalink }}"
+    }
+    {{- end -}}
+    ,{
+      "@type": "ListItem",
+      "position": {{ if .Parent }}3{{ else }}2{{ end }},
+      "name": "{{ .Title }}",
+      "item": "{{ .Permalink }}"
+    }
+  ]
+}
+</script>
+{{- end -}}

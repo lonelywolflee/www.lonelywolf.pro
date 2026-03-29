@@ -1,0 +1,55 @@
+<nav class="sticky top-0 z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-gray-200 dark:border-slate-700">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      {{/* Logo */}}
+      <a href="{{ .Site.Home.RelPermalink }}" class="text-xl font-bold text-gray-900 dark:text-white hover:text-accent dark:hover:text-accent-dark transition-colors">
+        {{ .Site.Title }}
+      </a>
+
+      {{/* Navigation Links */}}
+      <div class="flex items-center gap-6">
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}"
+           class="text-sm font-medium text-gray-600 dark:text-slate-400 hover:text-accent dark:hover:text-accent-dark transition-colors{{ if $.IsMenuCurrent "main" . }} text-accent dark:text-accent-dark{{ end }}">
+          {{ .Name }}
+        </a>
+        {{ end }}
+
+        {{/* Language Switcher */}}
+        {{ if .IsTranslated }}
+        {{ range .Translations }}
+        <a href="{{ .RelPermalink }}"
+           class="text-sm text-gray-500 dark:text-slate-500 hover:text-accent dark:hover:text-accent-dark transition-colors"
+           lang="{{ .Lang }}">
+          {{ .Language.Label }}
+        </a>
+        {{ end }}
+        {{ else }}
+        {{ range .Site.Home.AllTranslations }}
+        {{ if ne .Lang $.Lang }}
+        <a href="{{ .RelPermalink }}"
+           class="text-sm text-gray-500 dark:text-slate-500 hover:text-accent dark:hover:text-accent-dark transition-colors"
+           lang="{{ .Lang }}">
+          {{ .Language.Label }}
+        </a>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+
+        {{/* Dark/Light Toggle */}}
+        <button id="theme-toggle" type="button"
+                class="p-2 rounded-lg text-gray-500 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors"
+                aria-label="Toggle dark mode">
+          {{/* Sun icon (shown in dark mode) */}}
+          <svg class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+          </svg>
+          {{/* Moon icon (shown in light mode) */}}
+          <svg class="w-5 h-5 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
