@@ -28,6 +28,7 @@
   .light ::selection {
     @apply bg-cyan text-void;
   }
+
 }
 
 @layer components {
@@ -74,13 +75,15 @@
   /* Tag chip */
   .tag-chip {
     @apply text-xs font-mono px-2 py-0.5 border rounded-sm;
-    @apply border-void-300 text-void-400;
+    border-color: #4a4a4a;
+    color: #9ca3af;
   }
   .tag-chip:hover {
     @apply border-cyan text-cyan;
   }
   .light .tag-chip {
-    @apply border-cream-200 text-void-400;
+    border-color: #d5d5cf;
+    color: #555;
   }
   .light .tag-chip:hover {
     @apply border-cyan-dim text-cyan-dim;
@@ -90,21 +93,26 @@
   .prose-void {
     @apply prose prose-lg max-w-none;
     @apply prose-headings:font-display prose-headings:text-white prose-headings:tracking-tight;
-    @apply prose-p:text-gray-400 prose-p:leading-relaxed;
+    @apply prose-p:text-gray-300 prose-p:leading-relaxed;
     @apply prose-a:text-cyan prose-a:no-underline hover:prose-a:underline;
     @apply prose-strong:text-white;
     @apply prose-code:text-cyan prose-code:bg-void-100 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded-sm prose-code:text-sm;
     @apply prose-code:before:content-none prose-code:after:content-none;
-    @apply prose-blockquote:border-l-cyan prose-blockquote:text-gray-400;
+    @apply prose-blockquote:border-l-cyan prose-blockquote:text-gray-300;
     @apply prose-hr:border-void-300;
-    @apply prose-li:text-gray-400;
+    @apply prose-li:text-gray-300;
     @apply prose-img:rounded-sm;
+    /* Resume-style tables: narrow label + wide content */
+    @apply prose-table:w-full;
+    @apply prose-th:hidden;
+    @apply prose-td:align-top prose-td:py-2 prose-td:px-3 prose-td:text-sm prose-td:text-gray-300 prose-td:border-void-200;
   }
   .light .prose-void {
     @apply prose-headings:text-void prose-p:text-void-400 prose-a:text-cyan-dim;
     @apply prose-strong:text-void prose-code:text-cyan-dim prose-code:bg-cream-100;
     @apply prose-blockquote:border-l-cyan-dim prose-blockquote:text-void-400;
     @apply prose-hr:border-cream-200 prose-li:text-void-400;
+    @apply prose-td:text-void-400;
   }
 
   /* Staggered fade-in */
@@ -115,7 +123,8 @@
   /* Nav link with animated underline */
   .nav-link {
     @apply relative font-mono text-sm uppercase tracking-wider;
-    @apply text-void-400 transition-colors duration-200;
+    color: #9ca3af;
+    @apply transition-colors duration-200;
   }
   .nav-link::after {
     content: "";
@@ -129,12 +138,250 @@
     @apply w-full;
   }
   .light .nav-link {
-    @apply text-void-400;
+    color: #3a3a3a;
   }
   .light .nav-link:hover, .light .nav-link.active {
     @apply text-cyan-dim;
   }
   .light .nav-link::after {
     @apply bg-cyan-dim;
+  }
+}
+
+/* Resume table overrides — outside @layer to beat Tailwind Typography specificity */
+.prose-void table {
+  table-layout: fixed !important;
+  width: 100%;
+}
+.prose-void thead { display: none; }
+.prose-void td:first-child {
+  width: 16% !important;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+  color: #00f0ff;
+  white-space: nowrap;
+  padding-right: 1rem;
+  vertical-align: top;
+}
+.prose-void td:last-child {
+  width: 84% !important;
+}
+.light .prose-void td:first-child {
+  color: #00a5b0;
+}
+.light .prose-void td {
+  border-color: #e5e5df;
+}
+
+/* Muted text: ensure contrast in both modes — attribute selector to avoid Tailwind circular dep */
+[class~="text-void-400"] {
+  color: #9ca3af !important;
+}
+.light [class~="text-void-400"] {
+  color: #3a3a3a !important;
+}
+
+/* Page break marker — insert <div class="page-break"></div> in markdown */
+.page-break {
+  display: none;
+}
+
+/* ===== Print / PDF export ===== */
+@media print {
+  /* Nuclear reset: strip all color/bg from everything */
+  *, *::before, *::after {
+    color: #111 !important;
+    background: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* Page setup */
+  @page {
+    margin: 15mm 12mm;
+    size: A4;
+  }
+
+  html {
+    font-size: 11px !important;
+  }
+
+  body {
+    font-family: "IBM Plex Mono", "Pretendard", monospace !important;
+    line-height: 1.5 !important;
+    min-height: auto !important;
+  }
+
+  /* Hide everything except main content */
+  nav, footer,
+  .dark-glow, .light-glow,
+  .print-btn-wrap,
+  .absolute,
+  .void-divider,
+  .section-num {
+    display: none !important;
+  }
+
+  /* Remove all spacing/width constraints from layout containers */
+  body, main, article, header, div, section {
+    max-width: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    float: none !important;
+    position: static !important;
+    width: 100% !important;
+  }
+
+  main {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  article {
+    padding-top: 0 !important;
+  }
+
+  /* Header cleanup */
+  header {
+    margin-bottom: 8px !important;
+  }
+
+  /* Typography */
+  h1 {
+    font-family: "Syne", "Pretendard", sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 800 !important;
+    margin-bottom: 4px !important;
+    padding: 0 !important;
+  }
+  h2 {
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    border-bottom: 1px solid #ccc !important;
+    padding-bottom: 3px !important;
+    margin-top: 16px !important;
+    margin-bottom: 8px !important;
+  }
+  h3 {
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    margin-top: 14px !important;
+    margin-bottom: 4px !important;
+  }
+  h4 {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+    margin-top: 10px !important;
+    margin-bottom: 4px !important;
+  }
+
+  p {
+    margin-top: 2px !important;
+    margin-bottom: 4px !important;
+    font-size: 11px !important;
+    line-height: 1.5 !important;
+  }
+
+  /* Muted text */
+  time, .tag-chip {
+    color: #666 !important;
+  }
+
+  /* Links */
+  a {
+    text-decoration: none !important;
+  }
+
+  /* Underline in skills section */
+  u {
+    text-decoration: underline !important;
+    font-weight: 600 !important;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 18px !important;
+    margin-top: 2px !important;
+    margin-bottom: 4px !important;
+  }
+  li {
+    font-size: 11px !important;
+    margin-bottom: 1px !important;
+  }
+
+  /* HR */
+  hr {
+    border: none !important;
+    border-top: 1px solid #ccc !important;
+    margin: 10px 0 !important;
+  }
+
+  /* ---- Tables (resume format) ---- */
+  table {
+    table-layout: fixed !important;
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin-top: 4px !important;
+    margin-bottom: 8px !important;
+    break-inside: avoid !important;
+  }
+  thead {
+    display: none !important;
+  }
+  td {
+    vertical-align: top !important;
+    padding: 3px 6px !important;
+    font-size: 11px !important;
+    line-height: 1.5 !important;
+    border-top: 1px solid #e0e0e0 !important;
+  }
+  td:first-child {
+    width: 12% !important;
+    font-weight: 700 !important;
+    font-size: 10px !important;
+    white-space: nowrap !important;
+    color: #333 !important;
+  }
+  td:last-child {
+    width: 88% !important;
+  }
+
+  /* Bold inside table cells */
+  td strong {
+    font-weight: 700 !important;
+  }
+
+  /* ---- Page break control ---- */
+  .page-break {
+    display: block !important;
+    page-break-before: always !important;
+    break-before: page !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+  }
+
+  /* Prevent awkward breaks */
+  table, tr {
+    break-inside: avoid !important;
+  }
+  h2, h3, h4 {
+    break-after: avoid !important;
+  }
+
+  /* Hide date in header (about page has no meaningful date) */
+  header time {
+    display: none !important;
+  }
+
+  /* Navigation at bottom */
+  article > nav {
+    display: none !important;
   }
 }
