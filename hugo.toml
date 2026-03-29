@@ -20,7 +20,7 @@ paginate = 10
     weight = 2
     contentDir = 'content/en'
     [languages.en.params]
-      description = 'Builder bridging technology and business'
+      description = '15-year engineer who architects business through code'
 
 [languages.ko.menus]
   [[languages.ko.menus.main]]
@@ -53,19 +53,18 @@ paginate = 10
 [params]
   description = '기술과 사업을 잇는 빌더'
   [params.author]
-    name = 'lonelywolf'
-    headline = '기술과 사업을 잇는 빌더'
-    jobTitle = 'Software Engineer & Business Developer'
+    name = 'Yonghwan Lee'
+    headline = '15년차 엔지니어. 코드로 사업을 설계합니다.'
+    jobTitle = 'Senior Software Engineer & Business Developer'
   [params.social]
-    github = 'lonelywolf'
-    linkedin = 'lonelywolf'
-    twitter = 'lonelywolf'
-    email = 'hello@lonelywolf.pro'
+    github = 'lonelywolflee'
+    linkedin = 'lonelywolflee'
+    email = 'lonelywolf.lee@gmail.com'
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = false
+      unsafe = true
   [markup.highlight]
     style = 'monokai'
     lineNos = true

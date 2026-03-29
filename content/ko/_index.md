@@ -1,4 +1,4 @@
 ---
 title: "홈"
-description: "lonelywolf - 기술과 사업을 잇는 빌더"
+description: "이용환 - 15년차 엔지니어. 코드로 사업을 설계합니다."
 ---

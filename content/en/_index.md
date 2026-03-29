@@ -1,4 +1,4 @@
 ---
 title: "Home"
-description: "lonelywolf - Builder bridging technology and business"
+description: "Yonghwan Lee - 15-year engineer who architects business through code"
 ---
