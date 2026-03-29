@@ -1,0 +1,11 @@
+[projects]
+other = "Projects"
+
+[blog]
+other = "Blog"
+
+[viewAll]
+other = "View all"
+
+[about]
+other = "About"

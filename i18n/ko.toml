@@ -1,0 +1,11 @@
+[projects]
+other = "프로젝트"
+
+[blog]
+other = "블로그"
+
+[viewAll]
+other = "전체 보기"
+
+[about]
+other = "소개"

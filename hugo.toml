@@ -1,16 +1,51 @@
 baseURL = 'https://www.lonelywolf.pro/'
 defaultContentLanguage = 'ko'
 title = 'lonelywolf'
+theme = 'lonelywolf'
+enableRobotsTXT = true
+paginate = 10
 
 [languages]
   [languages.ko]
-    languageCode = 'ko-KR'
-    languageName = '한국어'
+    locale = 'ko-KR'
+    label = '한국어'
     weight = 1
+    contentDir = 'content/ko'
+    [languages.ko.params]
+      description = '기술과 사업을 잇는 빌더'
   [languages.en]
-    languageCode = 'en-US'
-    languageName = 'English'
+    locale = 'en-US'
+    label = 'English'
     weight = 2
+    contentDir = 'content/en'
+    [languages.en.params]
+      description = 'Builder bridging technology and business'
+
+[menus]
+  [[menus.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 1
+  [[menus.main]]
+    name = 'Projects'
+    url = '/projects/'
+    weight = 2
+  [[menus.main]]
+    name = 'Blog'
+    url = '/blog/'
+    weight = 3
+
+[params]
+  description = '기술과 사업을 잇는 빌더'
+  [params.author]
+    name = 'lonelywolf'
+    headline = '기술과 사업을 잇는 빌더'
+    jobTitle = 'Software Engineer & Business Developer'
+  [params.social]
+    github = 'lonelywolf'
+    linkedin = 'lonelywolf'
+    twitter = 'lonelywolf'
+    email = 'hello@lonelywolf.pro'
 
 [markup]
   [markup.goldmark]
@@ -23,5 +58,3 @@ title = 'lonelywolf'
 [sitemap]
   changeFreq = 'weekly'
   priority = 0.5
-
-enableRobotsTXT = true
