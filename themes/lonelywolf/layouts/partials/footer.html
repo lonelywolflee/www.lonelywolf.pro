@@ -1,9 +1,15 @@
-<footer class="border-t border-gray-200 dark:border-slate-700 mt-auto">
-  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-    <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
-      <p class="text-sm text-gray-500 dark:text-slate-500">
-        &copy; {{ now.Year }} {{ .Site.Title }}
-      </p>
+<footer class="relative z-10 mt-auto">
+  <div class="void-divider"></div>
+  <div class="max-w-6xl mx-auto px-5 sm:px-8 lg:px-12 py-10">
+    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+      <div class="space-y-2">
+        <p class="font-mono text-xs text-void-400">
+          &copy; {{ now.Year }} {{ .Site.Title }}
+        </p>
+        <p class="font-mono text-xs text-void-400" style="opacity:0.4;">
+          built with obsession &amp; precision
+        </p>
+      </div>
       {{- partial "social-links.html" . -}}
     </div>
   </div>

@@ -3,26 +3,138 @@
 @tailwind utilities;
 
 @layer base {
-  @font-face {
-    font-family: "Pretendard";
-    src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
-  }
-
   html {
     scroll-behavior: smooth;
   }
 
   body {
-    @apply bg-white text-gray-900 dark:bg-slate-900 dark:text-slate-200;
-    @apply font-sans leading-relaxed;
+    @apply bg-void text-white font-body;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(255,255,255,0.03) 1px, transparent 0);
+    background-size: 32px 32px;
+  }
+
+  body.light {
+    @apply bg-cream text-void;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(0,0,0,0.04) 1px, transparent 0);
+    background-size: 32px 32px;
+  }
+
+  ::selection {
+    @apply bg-cyan text-void;
+  }
+
+  .light ::selection {
+    @apply bg-cyan text-void;
   }
 }
 
 @layer components {
-  .prose-custom {
-    @apply prose prose-lg dark:prose-invert max-w-none;
-    @apply prose-headings:font-bold prose-a:text-accent dark:prose-a:text-accent-dark;
+  /* Section number prefix */
+  .section-num {
+    @apply font-display text-sm tracking-widest uppercase;
+    @apply text-cyan;
+  }
+  .light .section-num {
+    @apply text-cyan-dim;
+  }
+
+  /* Glowing border card */
+  .glow-card {
+    @apply relative border border-void-300 rounded-sm p-6;
+    @apply transition-all duration-300;
+    background: rgba(10, 10, 10, 0.6);
+    backdrop-filter: blur(8px);
+  }
+  .glow-card:hover {
+    @apply border-cyan;
+    box-shadow: 0 0 30px rgba(0, 240, 255, 0.08), inset 0 0 30px rgba(0, 240, 255, 0.03);
+  }
+  .light .glow-card {
+    @apply border-cream-200;
+    background: rgba(250, 250, 245, 0.8);
+  }
+  .light .glow-card:hover {
+    @apply border-cyan-dim;
+    box-shadow: 0 0 30px rgba(0, 165, 176, 0.1);
+  }
+
+  /* Horizontal rule */
+  .void-divider {
+    @apply border-t border-void-300;
+    background: linear-gradient(90deg, transparent, rgba(0, 240, 255, 0.2), transparent);
+    height: 1px;
+    border: none;
+  }
+  .light .void-divider {
+    background: linear-gradient(90deg, transparent, rgba(0, 165, 176, 0.3), transparent);
+  }
+
+  /* Tag chip */
+  .tag-chip {
+    @apply text-xs font-mono px-2 py-0.5 border rounded-sm;
+    @apply border-void-300 text-void-400;
+  }
+  .tag-chip:hover {
+    @apply border-cyan text-cyan;
+  }
+  .light .tag-chip {
+    @apply border-cream-200 text-void-400;
+  }
+  .light .tag-chip:hover {
+    @apply border-cyan-dim text-cyan-dim;
+  }
+
+  /* Prose for article content */
+  .prose-void {
+    @apply prose prose-lg max-w-none;
+    @apply prose-headings:font-display prose-headings:text-white prose-headings:tracking-tight;
+    @apply prose-p:text-gray-400 prose-p:leading-relaxed;
+    @apply prose-a:text-cyan prose-a:no-underline hover:prose-a:underline;
+    @apply prose-strong:text-white;
+    @apply prose-code:text-cyan prose-code:bg-void-100 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded-sm prose-code:text-sm;
     @apply prose-code:before:content-none prose-code:after:content-none;
-    @apply prose-code:bg-gray-100 prose-code:dark:bg-slate-800 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded;
+    @apply prose-blockquote:border-l-cyan prose-blockquote:text-gray-400;
+    @apply prose-hr:border-void-300;
+    @apply prose-li:text-gray-400;
+    @apply prose-img:rounded-sm;
+  }
+  .light .prose-void {
+    @apply prose-headings:text-void prose-p:text-void-400 prose-a:text-cyan-dim;
+    @apply prose-strong:text-void prose-code:text-cyan-dim prose-code:bg-cream-100;
+    @apply prose-blockquote:border-l-cyan-dim prose-blockquote:text-void-400;
+    @apply prose-hr:border-cream-200 prose-li:text-void-400;
+  }
+
+  /* Staggered fade-in */
+  .stagger-item {
+    @apply opacity-0;
+  }
+
+  /* Nav link with animated underline */
+  .nav-link {
+    @apply relative font-mono text-sm uppercase tracking-wider;
+    @apply text-void-400 transition-colors duration-200;
+  }
+  .nav-link::after {
+    content: "";
+    @apply absolute left-0 -bottom-1 w-0 h-px bg-cyan;
+    transition: width 0.3s ease;
+  }
+  .nav-link:hover, .nav-link.active {
+    @apply text-cyan;
+  }
+  .nav-link:hover::after, .nav-link.active::after {
+    @apply w-full;
+  }
+  .light .nav-link {
+    @apply text-void-400;
+  }
+  .light .nav-link:hover, .light .nav-link.active {
+    @apply text-cyan-dim;
+  }
+  .light .nav-link::after {
+    @apply bg-cyan-dim;
   }
 }

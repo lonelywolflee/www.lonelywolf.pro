@@ -1,15 +1,21 @@
 {{ define "main" }}
 
 {{/* Hero Section */}}
-<section class="py-16 sm:py-24">
-  <div class="space-y-6">
-    <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white leading-tight">
-      {{ .Site.Params.author.name }}
+<section class="pt-20 sm:pt-32 pb-20 relative">
+  {{/* Decorative line */}}
+  <div class="absolute top-0 left-0 w-px h-32 bg-gradient-to-b from-cyan/60 to-transparent"></div>
+
+  <div class="space-y-8">
+    <div class="stagger-item">
+      <span class="section-num">// hello world</span>
+    </div>
+    <h1 class="text-hero font-display font-800 text-white stagger-item light-heading">
+      {{ .Site.Params.author.name }}<span class="text-cyan">.</span>
     </h1>
-    <p class="text-xl sm:text-2xl text-gray-600 dark:text-slate-400 max-w-2xl">
-      {{ .Site.Params.author.headline }}
+    <p class="text-xl sm:text-2xl font-body text-void-400 max-w-2xl stagger-item leading-relaxed">
+      {{ .Site.Params.author.headline }}<span class="inline-block w-2 h-5 bg-cyan ml-1 align-middle animate-cursor-blink"></span>
     </p>
-    <div class="pt-2">
+    <div class="pt-4 stagger-item">
       {{- partial "social-links.html" . -}}
     </div>
   </div>
@@ -19,28 +25,37 @@
 {{ $projectSection := .Site.GetPage "projects" }}
 {{ $projects := $projectSection.Pages }}
 {{ with $projects }}
-<section class="py-12 border-t border-gray-200 dark:border-slate-700">
-  <div class="flex items-center justify-between mb-8">
-    <h2 class="text-2xl font-bold text-gray-900 dark:text-white">
-      {{ i18n "projects" | default "Projects" }}
-    </h2>
-    <a href="{{ "projects/" | relLangURL }}" class="text-sm text-accent dark:text-accent-dark hover:underline">
+<section class="py-16">
+  <div class="void-divider mb-16"></div>
+  <div class="flex items-baseline justify-between mb-10">
+    <div class="flex items-baseline gap-4">
+      <span class="section-num">01/</span>
+      <h2 class="text-section font-display font-700 text-white light-heading">
+        {{ i18n "projects" | default "Projects" }}
+      </h2>
+    </div>
+    <a href="{{ "projects/" | relLangURL }}" class="font-mono text-xs text-void-400 hover:text-cyan transition-colors uppercase tracking-widest">
       {{ i18n "viewAll" | default "View all" }} &rarr;
     </a>
   </div>
-  <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+  <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {{ range first 3 . }}
-    <a href="{{ .RelPermalink }}" class="group block p-6 rounded-xl border border-gray-200 dark:border-slate-700 hover:border-accent dark:hover:border-accent-dark transition-colors">
-      <h3 class="font-semibold text-gray-900 dark:text-white group-hover:text-accent dark:group-hover:text-accent-dark transition-colors">
-        {{ .Title }}
-      </h3>
+    <a href="{{ .RelPermalink }}" class="glow-card group block stagger-item">
+      <div class="flex items-start justify-between mb-3">
+        <h3 class="font-display font-600 text-white group-hover:text-cyan transition-colors light-heading">
+          {{ .Title }}
+        </h3>
+        <svg class="w-4 h-4 text-void-400 group-hover:text-cyan group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 17L17 7M17 7H7M17 7v10"/>
+        </svg>
+      </div>
       {{ with .Description }}
-      <p class="mt-2 text-sm text-gray-600 dark:text-slate-400 line-clamp-2">{{ . }}</p>
+      <p class="text-sm text-void-400 leading-relaxed line-clamp-2 mb-4">{{ . }}</p>
       {{ end }}
       {{ with .Params.tags }}
-      <div class="mt-3 flex flex-wrap gap-2">
+      <div class="flex flex-wrap gap-2 mt-auto">
         {{ range first 3 . }}
-        <span class="text-xs px-2 py-1 rounded-full bg-gray-100 dark:bg-slate-800 text-gray-600 dark:text-slate-400">{{ . }}</span>
+        <span class="tag-chip">{{ . }}</span>
         {{ end }}
       </div>
       {{ end }}
@@ -54,28 +69,41 @@
 {{ $blogSection := .Site.GetPage "blog" }}
 {{ $posts := $blogSection.Pages }}
 {{ with $posts }}
-<section class="py-12 border-t border-gray-200 dark:border-slate-700">
-  <div class="flex items-center justify-between mb-8">
-    <h2 class="text-2xl font-bold text-gray-900 dark:text-white">
-      {{ i18n "blog" | default "Blog" }}
-    </h2>
-    <a href="{{ "blog/" | relLangURL }}" class="text-sm text-accent dark:text-accent-dark hover:underline">
+<section class="py-16">
+  <div class="void-divider mb-16"></div>
+  <div class="flex items-baseline justify-between mb-10">
+    <div class="flex items-baseline gap-4">
+      <span class="section-num">02/</span>
+      <h2 class="text-section font-display font-700 text-white light-heading">
+        {{ i18n "blog" | default "Blog" }}
+      </h2>
+    </div>
+    <a href="{{ "blog/" | relLangURL }}" class="font-mono text-xs text-void-400 hover:text-cyan transition-colors uppercase tracking-widest">
       {{ i18n "viewAll" | default "View all" }} &rarr;
     </a>
   </div>
-  <div class="space-y-4">
+  <div class="space-y-0">
     {{ range first 5 . }}
-    <a href="{{ .RelPermalink }}" class="group flex items-center justify-between py-3 border-b border-gray-100 dark:border-slate-800 hover:border-accent dark:hover:border-accent-dark transition-colors">
-      <span class="font-medium text-gray-900 dark:text-white group-hover:text-accent dark:group-hover:text-accent-dark transition-colors">
-        {{ .Title }}
-      </span>
-      <time class="text-sm text-gray-500 dark:text-slate-500 shrink-0 ml-4" datetime="{{ .Date.Format "2006-01-02" }}">
-        {{ .Date.Format "2006-01-02" }}
-      </time>
+    <a href="{{ .RelPermalink }}" class="group flex items-center justify-between py-5 border-b border-void-200 hover:border-cyan/30 transition-colors stagger-item light-border">
+      <div class="flex items-center gap-4">
+        <span class="font-mono text-xs text-void-400 hidden sm:block w-20 shrink-0">{{ .Date.Format "06.01.02" }}</span>
+        <span class="font-display font-500 text-white group-hover:text-cyan transition-colors light-heading">
+          {{ .Title }}
+        </span>
+      </div>
+      <svg class="w-4 h-4 text-void-400 group-hover:text-cyan opacity-0 group-hover:opacity-100 translate-x-0 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+      </svg>
     </a>
     {{ end }}
   </div>
 </section>
 {{ end }}
+
+<style>
+  .light .light-heading { color: #050505; }
+  .light .light-border { border-color: #e5e5df; }
+  .light .light-border:hover { border-color: rgba(0,165,176,0.3); }
+</style>
 
 {{ end }}

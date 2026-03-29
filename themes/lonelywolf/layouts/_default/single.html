@@ -1,45 +1,63 @@
 {{ define "main" }}
 
-<article class="py-12">
+<article class="pt-12 pb-16">
   {{/* Header */}}
-  <header class="mb-8">
-    <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white leading-tight">
-      {{ .Title }}
-    </h1>
-    <div class="mt-4 flex flex-wrap items-center gap-4 text-sm text-gray-500 dark:text-slate-500">
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-      {{ with .Params.tags }}
-      <div class="flex flex-wrap gap-2">
-        {{ range . }}
-        <span class="px-2 py-1 rounded-full bg-gray-100 dark:bg-slate-800 text-gray-600 dark:text-slate-400 text-xs">{{ . }}</span>
+  <header class="mb-12 relative">
+    <div class="absolute top-0 left-0 w-px h-16 bg-gradient-to-b from-cyan/60 to-transparent"></div>
+    <div class="pl-6">
+      {{ with .Section }}
+      <span class="section-num">// {{ . }}</span>
+      {{ end }}
+      <h1 class="text-section font-display font-800 text-white mt-2 leading-tight light-heading">
+        {{ .Title }}
+      </h1>
+      <div class="flex flex-wrap items-center gap-4 mt-5">
+        <time class="font-mono text-xs text-void-400" datetime="{{ .Date.Format "2006-01-02" }}">
+          {{ .Date.Format "2006.01.02" }}
+        </time>
+        {{ with .Params.tags }}
+        <span class="text-void-300">/</span>
+        <div class="flex flex-wrap gap-2">
+          {{ range . }}
+          <span class="tag-chip">{{ . }}</span>
+          {{ end }}
+        </div>
         {{ end }}
       </div>
-      {{ end }}
     </div>
   </header>
 
   {{/* Content */}}
-  <div class="prose-custom">
+  <div class="prose-void pl-6">
     {{ .Content }}
   </div>
 
   {{/* Navigation */}}
-  <nav class="mt-12 pt-8 border-t border-gray-200 dark:border-slate-700">
+  <nav class="mt-16 pl-6">
+    <div class="void-divider mb-8"></div>
     <div class="flex justify-between">
       {{ with .PrevInSection }}
-      <a href="{{ .RelPermalink }}" class="group flex items-center gap-2 text-sm text-gray-600 dark:text-slate-400 hover:text-accent dark:hover:text-accent-dark transition-colors">
-        <span>&larr;</span>
-        <span class="group-hover:underline">{{ .Title }}</span>
+      <a href="{{ .RelPermalink }}" class="group flex items-center gap-3 font-mono text-sm text-void-400 hover:text-cyan transition-colors">
+        <svg class="w-4 h-4 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 16l-4-4m0 0l4-4m-4 4h18"/>
+        </svg>
+        <span class="truncate max-w-[200px]">{{ .Title }}</span>
       </a>
       {{ else }}<span></span>{{ end }}
       {{ with .NextInSection }}
-      <a href="{{ .RelPermalink }}" class="group flex items-center gap-2 text-sm text-gray-600 dark:text-slate-400 hover:text-accent dark:hover:text-accent-dark transition-colors">
-        <span class="group-hover:underline">{{ .Title }}</span>
-        <span>&rarr;</span>
+      <a href="{{ .RelPermalink }}" class="group flex items-center gap-3 font-mono text-sm text-void-400 hover:text-cyan transition-colors">
+        <span class="truncate max-w-[200px]">{{ .Title }}</span>
+        <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+        </svg>
       </a>
       {{ end }}
     </div>
   </nav>
 </article>
+
+<style>
+  .light .light-heading { color: #050505; }
+</style>
 
 {{ end }}
