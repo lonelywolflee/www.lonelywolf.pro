@@ -25,7 +25,7 @@ pdf: true
 
 ## 약력
 
-**Cliwant ( 2025.11 – Present )** <br>
+**Cliwant ( 2025.02 – Present )** <br>
 2025.02 - Present &nbsp; Senior Software Engineer
 
 **DOZN ( 2019.11 – 2025.02 )** <br>

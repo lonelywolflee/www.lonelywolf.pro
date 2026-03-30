@@ -25,7 +25,7 @@ pdf: true
 
 ## Career Summary
 
-**Cliwant ( 2025.11 – Present )** <br>
+**Cliwant ( 2025.02 – Present )** <br>
 2025.02 - Present &nbsp; Senior Software Engineer
 
 **DOZN ( 2019.11 – 2025.02 )** <br>
@@ -133,7 +133,7 @@ pdf: true
 |---|---|
 | **Desc** | Blockchain-based deferred payment system and control system development in the US |
 | **Tech** | Kotlin, Spring Boot, Spring Cloud, Spring Config, MySql, JPA, Docker, kubernetes, Python, Django, Bootstrap, VueJs |
-| **Role** | ● Fiat Money (USD) and Token sync & exchange transaction management system <br> ● Email parsing-based fiat money deposit confirmation (Chase Bank) <br> ● Token issue/redeem and sync & scheduled processing <br> ● KYC implementation via Google API email verification and Twilio SMS <br> ● Web-based control system for ledger verification, troubleshooting, and manual processing |
+| **Role** | ● Fiat Money (USD) and Token (proprietary token) sync & exchange transaction management system <br> ● Email parsing-based fiat money deposit confirmation (Chase Bank) <br> ● Token issue/redeem and sync & scheduled processing <br> ● KYC implementation via Google API email verification and Twilio SMS <br> ● Web-based control system for ledger verification, troubleshooting, and manual processing |
 | **Result** | ● Yosemite Card launched <br> ● Marketing around Stanford and UC Berkeley; verified real sign-up and payment/settlement process <br> ● Enhanced control system for non-technical/sales staff usability |
 
 #### Blockchain-based Rent Payment Service (2018.06 - 2018.11)
@@ -142,8 +142,8 @@ pdf: true
 |---|---|
 | **Desc** | Service handling rent payment management and delinquency tracking on behalf of landlords |
 | **Tech** | Kotlin, Spring Boot, Spring Cloud, Spring Config, MySql, JPA, Docker |
-| **Role** | ● Fiat Money (KRW) and Token sync & exchange transaction management system <br> ● Deposit/withdrawal for both Token and Fiat Money with rollback functionality |
-| **Result** | ● KFTC open platform fiat money deposit/withdrawal API application and implementation (with KYC) <br> ● Nice ID and Dream Security identity verification service contract and development |
+| **Role** | ● Fiat Money (KRW) and Token (proprietary token) sync & exchange transaction management system <br> ● Deposit/withdrawal for both Token and Fiat Money with rollback functionality |
+| **Result** | ● KFTC open platform fiat money deposit/withdrawal API application and implementation (with KYC) <br> ● Nice ID and Dream Security identity verification service contract and development (independent identity verification service) |
 
 ---
 
@@ -201,7 +201,7 @@ pdf: true
 #### Other Projects
 
 1. HTTP Streaming (RTP/RTSP, HLS) Component on Android Framework (C++)
-2. Context-based Social Memo service APP using BaaS (Kinvey Cloud, Android)
+2. Time/location/weather-triggered event Social Memo creation & sharing service APP using BaaS (Kinvey Cloud, Android)
 3. Dynamic recommendation rule composition server architecture and framework (Java, Vert.x, Spring Integration)
 
 ---
@@ -223,7 +223,7 @@ pdf: true
 |---|---|
 | **Desc** | ● Special request from KT. Solo developer, 100M+ KRW budget, 3-month development, 1-month verification <br> ● Screen feature registration and analysis for automated testing per device/service |
 | **Tech** | Delphi |
-| **Role** | ● Per-step video capture, selection, and feature input functionality <br> ● Adaptive analysis with new video addition for ambiguous results <br> ● Mouse-based video selection/registration UX proposal <br> ● Auto-generated HTML report with captured screenshots |
+| **Role** | ● Per-step video capture, selection, and feature input functionality <br> ● Adaptive analysis with new video addition for ambiguous results <br> ● Mouse-based video selection/registration UX proposal <br> ● Auto-generated HTML report with captured screenshots and automated delivery |
 | **Result** | ● Passed 72-hour stress test (no error, no fault) <br> ● Successful demo via proactively proposed video registration UX; positive end-user feedback <br> ● Seoul Phase 1 success led to contract expansion and nationwide Phase 2 |
 
 ---
