@@ -152,8 +152,13 @@
 .prose-void table {
   table-layout: fixed !important;
   width: 100%;
+  border-collapse: collapse !important;
+  border: 1px solid #444 !important;
 }
 .prose-void thead { display: none; }
+.prose-void td {
+  border: 1px solid #444 !important;
+}
 .prose-void td:first-child {
   width: 16% !important;
   font-family: "IBM Plex Mono", monospace;
@@ -166,11 +171,14 @@
 .prose-void td:last-child {
   width: 84% !important;
 }
-.light .prose-void td:first-child {
-  color: #00a5b0;
+.light .prose-void table {
+  border-color: #999 !important;
 }
 .light .prose-void td {
-  border-color: #e5e5df;
+  border-color: #999 !important;
+}
+.light .prose-void td:first-child {
+  color: #00a5b0;
 }
 
 /* Muted text: ensure contrast in both modes — attribute selector to avoid Tailwind circular dep */
