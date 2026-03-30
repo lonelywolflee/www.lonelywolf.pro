@@ -122,7 +122,8 @@
 
   /* Nav link with animated underline */
   .nav-link {
-    @apply relative font-mono text-sm uppercase tracking-wider;
+    @apply relative font-mono text-sm uppercase tracking-wider inline-flex items-center;
+    min-height: 44px;
     color: #9ca3af;
     @apply transition-colors duration-200;
   }
@@ -146,14 +147,25 @@
   .light .nav-link::after {
     @apply bg-cyan-dim;
   }
+
+  /* Minimum touch target for all interactive elements */
+  nav a, footer a {
+    min-height: 44px;
+    @apply inline-flex items-center;
+  }
 }
 
 /* Resume table overrides — outside @layer to beat Tailwind Typography specificity */
 .prose-void table {
   table-layout: fixed !important;
   width: 100%;
+  border-collapse: collapse !important;
+  border: 1px solid #444 !important;
 }
 .prose-void thead { display: none; }
+.prose-void td {
+  border: 1px solid #444 !important;
+}
 .prose-void td:first-child {
   width: 16% !important;
   font-family: "IBM Plex Mono", monospace;
@@ -166,11 +178,14 @@
 .prose-void td:last-child {
   width: 84% !important;
 }
-.light .prose-void td:first-child {
-  color: #00a5b0;
+.light .prose-void table {
+  border-color: #999 !important;
 }
 .light .prose-void td {
-  border-color: #e5e5df;
+  border-color: #999 !important;
+}
+.light .prose-void td:first-child {
+  color: #00a5b0;
 }
 
 /* Muted text: ensure contrast in both modes — attribute selector to avoid Tailwind circular dep */

@@ -13,7 +13,7 @@
       <div class="flex items-center gap-8">
         {{ range .Site.Menus.main }}
         <a href="{{ .URL }}"
-           class="nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">
+           class="nav-link py-3{{ if $.IsMenuCurrent "main" . }} active{{ end }}">
           {{ .Name }}
         </a>
         {{ end }}
@@ -25,7 +25,7 @@
         {{ if .IsTranslated }}
         {{ range .Translations }}
         <a href="{{ .RelPermalink }}"
-           class="font-mono text-xs uppercase tracking-widest text-void-400 hover:text-cyan transition-colors"
+           class="font-mono text-xs uppercase tracking-widest text-void-400 hover:text-cyan transition-colors py-3"
            lang="{{ .Lang }}">
           {{ .Language.Label }}
         </a>
@@ -34,7 +34,7 @@
         {{ range .Site.Home.AllTranslations }}
         {{ if ne .Lang $.Lang }}
         <a href="{{ .RelPermalink }}"
-           class="font-mono text-xs uppercase tracking-widest text-void-400 hover:text-cyan transition-colors"
+           class="font-mono text-xs uppercase tracking-widest text-void-400 hover:text-cyan transition-colors py-3"
            lang="{{ .Lang }}">
           {{ .Language.Label }}
         </a>
@@ -44,7 +44,7 @@
 
         {{/* Dark/Light Toggle */}}
         <button id="theme-toggle" type="button"
-                class="relative w-9 h-9 flex items-center justify-center rounded-sm border border-void-300 text-void-400 hover:border-cyan hover:text-cyan transition-all duration-200 light-toggle"
+                class="relative w-11 h-11 flex items-center justify-center rounded-sm border border-void-300 text-void-400 hover:border-cyan hover:text-cyan transition-all duration-200 light-toggle"
                 aria-label="Toggle dark mode">
           {{/* Sun icon */}}
           <svg class="w-4 h-4 sun-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="display:none;">
