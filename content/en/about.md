@@ -26,6 +26,7 @@ An engineer with 17 years of experience bridging technology and business — fro
 **Framework** : <u>Gin</u>, <u>Fiber</u>, <u>Fx</u>, <u>Spring/Spring Boot</u>, <u>Flutter</u>, <u>VueJs</u>, Android, Django, NodeJs, OSGi, Vert.x <br>
 **DB** : <u>JPA</u>, <u>MariaDB</u>, <u>MySql</u>, MyBatis, DynamoDb, MongoDb, PostgreSQL <br>
 **Language** : <u>Go</u>, <u>Kotlin</u>, <u>Dart</u>, <u>Java</u>, <u>Python</u>, <u>Typescript</u>, <u>JavaScript</u>, <u>C/C++</u>, <u>Scala</u>, Delphi, C#, R <br>
+**AI/LLM** : <u>Prompt Engineering</u>, <u>LLM API (OpenAI, Anthropic)</u>, <u>Agent Design</u>, Few-shot Learning, RAG <br>
 **ETC** : <u>AWS</u>, Firebase, Observability, CI/CD, GCP, OOP, MSA.. <br>
 **Language Proficiency** : Korean (Native), English (Conversational & Technical Discussion)
 
@@ -76,6 +77,7 @@ An engineer with 17 years of experience bridging technology and business — fro
 | | |
 |---|---|
 | **Desc** | Enhancing accuracy and architecture of existing AI-based risk analysis |
+| **Tech** | Python, FastAPI, MySQL, OpenAI API, Prompt Engineering, Agent Design |
 | **Title** | Senior Software Engineer |
 | **Role** | ● Prompt engineering for improved risk analysis accuracy <br> ● Refactored batch document analysis into page-level analysis with surrounding context for sentence continuity <br> ● Prompt tuning for API temperature and analysis policy optimization <br> ● Added few-shot examples and guidelines to reduce false positives and control response format <br> ● Implemented editor agent for guideline compliance verification and fallback parser for unparseable response formats |
 | **Result** | ● Improved risk analysis accuracy with reduced false positive rate <br> ● Stabilized large document processing through page-level analysis |
@@ -85,8 +87,9 @@ An engineer with 17 years of experience bridging technology and business — fro
 | | |
 |---|---|
 | **Desc** | AI-based Teaming Partner service Infra and Server design & development for US market |
+| **Tech** | Go, Gin, FX, MySQL, ElasticSearch, AWS, OpenAI API, HAProxy |
 | **Title** | Senior Software Engineer |
-| **Role** | ● Application (From network to DB) architecture design <br> ● Data structure and format definition & design <br> ● Service Business Logic design & implementation |
+| **Role** | ● Application (From network to DB) architecture design <br> ● LLM API integration and AI response pipeline design <br> ● Data structure and format definition & design <br> ● Service Business Logic design & implementation |
 | **Result** | ● Service launched in US market, Aug 2025 <br> ● Acquired 5 US clients through 6-week on-site deployment trip; expansion ongoing |
 
 #### Enterprise Service (2025.03 - Present)
@@ -94,6 +97,7 @@ An engineer with 17 years of experience bridging technology and business — fro
 | | |
 |---|---|
 | **Desc** | Solution development and improvement for Enterprise (Thermofisher) |
+| **Tech** | Python, FastAPI, Temporal, MySQL, ElasticSearch, Docker Swarm, HAProxy |
 | **Title** | Senior Software Engineer |
 | **Role** | ● API service documentation/development policy establishment <br> ● Project management feature design & development for individual postings <br> ● Spec analysis, project approval process design & development <br> ● Batch design & management template using Temporal <br> ● Node and network architecture design for internal deployment <br> ● Security vulnerability assessment and audit response |
 | **Result** | ● Successful project handover and knowledge sharing seminar <br> ● Project achieved 1st place at client's internal presentation <br> ● Selected as partner for Phase 2 contract in 2026 |

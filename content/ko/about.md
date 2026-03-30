@@ -26,6 +26,7 @@ pdf: true
 **Framework** : <u>Gin</u>, <u>Fiber</u>, <u>Fx</u>, <u>Spring/Spring Boot</u>, <u>Flutter</u>, <u>VueJs</u>, Android, Django, NodeJs, OSGi, Vert.x <br>
 **DB** : <u>JPA</u>, <u>MariaDB</u>, <u>MySql</u>, MyBatis, DynamoDb, MongoDb, PostgreSQL <br>
 **Language** : <u>Go</u>, <u>Kotlin</u>, <u>Dart</u>, <u>Java</u>, <u>Python</u>, <u>Typescript</u>, <u>JavaScript</u>, <u>C/C++</u>, <u>Scala</u>, Delphi, C#, R <br>
+**AI/LLM** : <u>Prompt Engineering</u>, <u>LLM API (OpenAI, Anthropic)</u>, <u>Agent Design</u>, Few-shot Learning, RAG <br>
 **ETC** : <u>AWS</u>, Firebase, Observability, CI/CD, GCP, OOP, MSA.. <br>
 **언어** : 한국어 (모국어), 영어 (일상 생활 및 개발 논의 가능)
 
@@ -76,6 +77,7 @@ pdf: true
 | | |
 |---|---|
 | **내용** | 기존 AI 기반 리스크 분석 기능의 정확도 및 구조 고도화 |
+| **기술** | Python, FastAPI, MySQL, OpenAI API, Prompt Engineering, Agent Design |
 | **직책** | Senior Software Engineer |
 | **역할** | ● 리스크 분석 정확도 향상을 위한 프롬프트 엔지니어링 진행 <br> ● 전체 문서 일괄 분석 로직을 페이지 단위로 분리하고, 문장 연속성을 위해 목표 페이지의 앞뒤 문맥을 포함하여 리스크 항목별 분석 수행 <br> ● API temperature 및 분석 정책 튜닝을 위한 프롬프트 수정 <br> ● 오탐 배제 및 응답 형식 제어를 위한 few-shot 예시 추가 및 가이드라인 작성 <br> ● 가이드라인 준수 여부를 검증하는 editor agent 추가 및 응답 포맷 파싱 실패 대비 fallback parser 구현 |
 | **성과** | ● 리스크 분석 정확도 개선 및 오탐율 감소 <br> ● 페이지 단위 분석으로 대용량 문서 처리 안정성 확보 |
@@ -85,8 +87,9 @@ pdf: true
 | | |
 |---|---|
 | **내용** | 미국향 AI 기반 Teaming Partner 서비스 Infra 및 Server 설계 및 개발 |
+| **기술** | Go, Gin, FX, MySQL, ElasticSearch, AWS, OpenAI API, HAProxy |
 | **직책** | Senior Software Engineer |
-| **역할** | ● Application (From network to DB) 구조 설계 <br> ● 데이터 구조 및 형식 정의 및 설계 <br> ● Service Business Logic 설계 및 구현 |
+| **역할** | ● Application (From network to DB) 구조 설계 <br> ● LLM API 연동 및 AI 응답 파이프라인 설계 <br> ● 데이터 구조 및 형식 정의 및 설계 <br> ● Service Business Logic 설계 및 구현 |
 | **성과** | ● '25년 8월 미국 마켓에 서비스 런칭 완료 <br> ● 6주간 현지 적용을 위한 출장을 통해 미국내 고객 5개사 유치 및 확장 진행중 |
 
 #### Enterprise 서비스 진행 (2025.03 - Present)
@@ -94,6 +97,7 @@ pdf: true
 | | |
 |---|---|
 | **내용** | Enterprise (Thermofisher) 를 위한 솔루션 개발 및 개선 작업 |
+| **기술** | Python, FastAPI, Temporal, MySQL, ElasticSearch, Docker Swarm, HAProxy |
 | **직책** | Senior Software Engineer |
 | **역할** | ● API 서비스를 위한 문서/개발 정책 수립 및 관리 <br> ● 개별 공고를 위한 프로젝트 관리 기능 설계 및 개발 <br> ● 규격서 분석, 프로젝트 결재/승인 프로세스 설계 및 개발 <br> ● Temporal 을 사용한 Batch 설계 및 관리 템플릿 설계 및 적용 <br> ● Internal 배포를 위한 노드 및 네트워크 구조 설계 및 구축 <br> ● 보안 및 취약점 점검을 위한 조치 및 감사 대응 |
 | **성과** | ● 프로젝트 성공적인 이관 및 공유 세미나 완료 <br> ● 해당 프로젝트가 고객사 내부 발표회 1위 달성 <br> ● '26년 Phase 2 계약을 위한 파트너사로 선정 |
