@@ -15,6 +15,12 @@ pdf: true
 
 ---
 
+## Summary
+
+An engineer with 17 years of experience bridging technology and business — from server architecture design to enterprise client engagement and business development. I have designed MSA/HA systems across finance, blockchain, and AI domains, and deployed services directly to enterprise clients in both the US and Korea. Recently, I am expanding my role as an enterprise solutions specialist for the AI era, leading LLM-based prompt engineering and agent design, as well as establishing ISO 27001 security frameworks.
+
+---
+
 ## Skills
 
 **Framework** : <u>Gin</u>, <u>Fiber</u>, <u>Fx</u>, <u>Spring/Spring Boot</u>, <u>Flutter</u>, <u>VueJs</u>, Android, Django, NodeJs, OSGi, Vert.x <br>
@@ -48,18 +54,6 @@ pdf: true
 
 **Innowireless ( 2009.02 - 2011.02 )** <br>
 2009.02 - 2011.02 &nbsp; Researcher
-
----
-
-## Other Activities
-
-- Korea University Graduate School, Guest Lecture on Intelligent Mobility (2023.09.13)
-- Robert Walters, Young Developers Meetup Season 3 Mentor (2023.08.19)
-- Dongguk University Programming Lecturer (2019.09 - 2020.08)
-  - 2020 S1: Advanced Multimedia Programming (C++)
-  - 2019 S2: Basic Multimedia Programming (C)
-- OLULO Co-Founder & Technical Advisor, MEXICO (2019.04 - 2025.02)
-- NASK Inc. Co-Founder & Technical Advisor (2017.12 - 2025.01)
 
 ---
 
@@ -245,6 +239,18 @@ pdf: true
 | **Tech** | Delphi |
 | **Role** | ● Per-step video capture, selection, and feature input functionality <br> ● Adaptive analysis with new video addition for ambiguous results <br> ● Mouse-based video selection/registration UX proposal <br> ● Auto-generated HTML report with captured screenshots and automated delivery |
 | **Result** | ● Passed 72-hour stress test (no error, no fault) <br> ● Successful demo via proactively proposed video registration UX; positive end-user feedback <br> ● Seoul Phase 1 success led to contract expansion and nationwide Phase 2 |
+
+---
+
+## Other Activities
+
+- Korea University Graduate School, Guest Lecture on Intelligent Mobility (2023.09.13)
+- Robert Walters, Young Developers Meetup Season 3 Mentor (2023.08.19)
+- Dongguk University Programming Lecturer (2019.09 - 2020.08)
+  - '20 S1: Advanced Multimedia Programming (C++)
+  - '19 S2: Basic Multimedia Programming (C)
+- OLULO Co-Founder & Technical Advisor, MEXICO (2019.04 - 2025.02)
+- NASK Inc. Co-Founder & Technical Advisor (2017.12 - 2025.01)
 
 ---
 
