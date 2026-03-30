@@ -8,7 +8,7 @@ pdf: true
 
 <div class="resume-contact">
 
-**LinkedIn** : https://www.linkedin.com/in/lonelywolflee<br>
+**LinkedIn** : https://www.linkedin.com/in/lonelywolflee <br>
 **Email** : lonelywolf.lee@gmail.com
 
 </div>
@@ -17,7 +17,7 @@ pdf: true
 
 ## Summary
 
-An engineer with 17 years of experience bridging technology and business — from server architecture design to enterprise client engagement and business development. I have designed MSA/HA systems across finance, blockchain, and AI domains, and deployed services directly to enterprise clients in both the US and Korea. Recently, I am expanding my role as an enterprise solutions specialist for the AI era, leading LLM-based prompt engineering and agent design, as well as establishing ISO 27001 security frameworks.
+A software engineer with 17 years of experience connecting technology and business, spanning server architecture design, enterprise client engagement, and business development. Designed and operated MSA/HA systems across finance, blockchain, and AI domains, with hands-on experience deploying services directly to enterprise clients in both the United States and South Korea. Currently expanding into AI-era enterprise solutions, leading LLM-based prompt engineering and agent design, as well as establishing ISO 27001 security compliance frameworks.
 
 ---
 
@@ -28,254 +28,254 @@ An engineer with 17 years of experience bridging technology and business — fro
 **Language** : <u>Go</u>, <u>Kotlin</u>, <u>Dart</u>, <u>Java</u>, <u>Python</u>, <u>Typescript</u>, <u>JavaScript</u>, <u>C/C++</u>, <u>Scala</u>, Delphi, C#, R <br>
 **AI/LLM** : <u>Prompt Engineering</u>, <u>LLM API (OpenAI, Anthropic)</u>, <u>Agent Design</u>, Few-shot Learning, RAG <br>
 **ETC** : <u>AWS</u>, Firebase, Observability, CI/CD, GCP, OOP, MSA.. <br>
-**Language Proficiency** : Korean (Native), English (Conversational & Technical Discussion)
+**Language Proficiency** : Korean (Native), English (Daily conversation and technical discussion)
 
 ---
 
 ## Career Summary
 
-**Cliwant ( 2025.02 – Present )** <br>
-2026.02 - Present &nbsp; Compliance & Security Lead <br>
-2025.02 - Present &nbsp; Senior Software Engineer
+**Cliwant ( Feb 2025 – Present )** <br>
+Feb 2026 - Present &nbsp; Compliance & Security Lead <br>
+Feb 2025 - Present &nbsp; Senior Software Engineer
 
-**DOZN ( 2019.11 – 2025.02 )** <br>
-2023.09 - 2025.02 &nbsp; R&D Lab Director <br>
-2022.07 - 2025.02 &nbsp; Head of New Business Development <br>
-2020.02 - 2022.06 &nbsp; R&D Team Lead <br>
-2019.11 - 2020.02 &nbsp; Deputy General Manager (Vietnam Finance Business PM)
+**DOZN ( Nov 2019 – Feb 2025 )** <br>
+Sep 2023 - Feb 2025 &nbsp; Director, Corporate R&D Lab <br>
+Jul 2022 - Feb 2025 &nbsp; Head, New Business Development Division <br>
+Feb 2020 - Jun 2022 &nbsp; R&D Team Lead <br>
+Nov 2019 - Feb 2020 &nbsp; Deputy General Manager, Development Team (Vietnam Finance Business PM)
 
-**[US] Yosemite X, [KR] Blockchain Labs Inc. ( 2018.05 – 2019.05 )** <br>
-2018.05 - 2019.05 &nbsp; Server Developer
+**[US] Yosemite X, [KR] Blockchain Labs Inc. ( May 2018 – May 2019 )** <br>
+May 2018 - May 2019 &nbsp; Server Developer
 
-**Viva Republica ( 2016.06 – 2018.05 )** <br>
-2016.06 - 2018.05 &nbsp; Server Developer
+**Viva Republica ( Jun 2016 – May 2018 )** <br>
+Jun 2016 - May 2018 &nbsp; Server Developer
 
-**LG Electronics ( 2011.02 – 2016.05 )** <br>
-2015.02 - 2016.05 &nbsp; Senior Researcher <br>
-2011.02 - 2015.02 &nbsp; Researcher
+**LG Electronics ( Feb 2011 – May 2016 )** <br>
+Feb 2015 - May 2016 &nbsp; Senior Researcher <br>
+Feb 2011 - Feb 2015 &nbsp; Researcher
 
-**Innowireless ( 2009.02 - 2011.02 )** <br>
-2009.02 - 2011.02 &nbsp; Researcher
+**Innowireless ( Feb 2009 - Feb 2011 )** <br>
+Feb 2009 - Feb 2011 &nbsp; Researcher
 
 ---
 
 ## Work Experience
 
-### Cliwant (2025.02 – Present)
+### Cliwant (Feb 2025 – Present)
 
-#### AI-based SNS Account Management Agent Enhancement (2026.03 - Present)
+#### AI-powered SNS Account Management Agent Enhancement (Mar 2026 - Present)
 
 | | |
 |---|---|
 | **Desc** | Developing a multi-agent management framework that assigns personas and interests to multiple X (Twitter) accounts to automate topic discovery, engagement, and content curation |
 | **Tech** | XAI (Grok), Perplexity AI, Go, Supabase (PostgreSQL), Typescript (Dashboard) |
 | **Title** | Senior Software Engineer |
-| **Role** | ● Multi-agent concurrent activity threshold and resource management system <br> ● Agent framework design for dynamic injection of activity patterns, roles, and interests <br> ● Trend search and interest-based content generation pipeline using XAI (Grok) and Perplexity AI <br> ● Marketing automation workflow design and Human-in-the-Loop (policy changes, interest injection, persona adjustment) request/response pipeline design |
-| **Result** | ● Full system built and deployed to production <br> ● Dashboard for activity status monitoring and multi-state management <br> ● Fulfilled real-world usage needs of marketing team |
+| **Role** | ● Building a concurrency threshold and resource management system for multi-agent operations <br> ● Designing an agent framework that dynamically injects activity patterns, roles, and interests <br> ● Building a trend search and interest-based content generation pipeline using XAI (Grok) and Perplexity AI <br> ● Designing marketing automation workflows and a Human-in-the-Loop request/response pipeline for policy changes, interest injection, and persona adjustment |
+| **Result** | ● Completed full system build and deployed to production <br> ● Delivered a dashboard for activity status monitoring and multi-state management <br> ● Met real-world usage needs of the marketing team |
 
-#### ISO 27001 Certification Preparation (2026.02 - Present)
+#### ISO 27001 Certification Preparation (Feb 2026 - Present)
 
 | | |
 |---|---|
-| **Desc** | Establishing Compliance & Security framework for ISO 27001 certification |
+| **Desc** | Establishing a Compliance & Security framework for ISO 27001 certification |
 | **Title** | Compliance & Security Lead |
-| **Role** | ● Establishing management framework for certification and policy governance <br> ● Infrastructure design guidelines and policy execution tailored to company scale <br> ● Certification roadmap planning and task delegation |
-| **Result** | ● ISO 27001 certification roadmap established and tasks delegated <br> ● Application targeted for completion by Jun 2026 |
+| **Role** | ● Establishing the management framework for certification acquisition and policy governance <br> ● Defining infrastructure design guidelines and executing policies appropriate to company scale <br> ● Planning the certification roadmap and delegating tasks |
+| **Result** | ● Completed the ISO 27001 certification roadmap and delegated all tasks <br> ● Application targeted for completion by Jun 2026 |
 
-#### Cliwant 2.0 Risk Analysis Enhancement (2025.09 - 2025.10)
+#### Cliwant 2.0 Risk Analysis Enhancement (Sep 2025 - Oct 2025)
 
 | | |
 |---|---|
-| **Desc** | Enhancing accuracy and architecture of existing AI-based risk analysis |
+| **Desc** | Enhanced the accuracy and architecture of the existing AI-based risk analysis feature |
 | **Tech** | Python, FastAPI, MySQL, OpenAI API, Prompt Engineering, Agent Design |
 | **Title** | Senior Software Engineer |
-| **Role** | ● Prompt engineering for improved risk analysis accuracy <br> ● Refactored batch document analysis into page-level analysis with surrounding context for sentence continuity <br> ● Prompt tuning for API temperature and analysis policy optimization <br> ● Added few-shot examples and guidelines to reduce false positives and control response format <br> ● Implemented editor agent for guideline compliance verification and fallback parser for unparseable response formats |
-| **Result** | ● Improved risk analysis accuracy with reduced false positive rate <br> ● Stabilized large document processing through page-level analysis |
+| **Role** | ● Conducted prompt engineering to improve risk analysis accuracy <br> ● Refactored batch document analysis into page-level analysis, including surrounding page context for sentence continuity, performing per-risk-item analysis <br> ● Tuned prompts for API temperature and analysis policy optimization <br> ● Added few-shot examples and authored guidelines to eliminate false positives and control response format <br> ● Implemented an editor agent to verify guideline compliance, and a fallback parser to handle response format parsing failures |
+| **Result** | ● Improved risk analysis accuracy and reduced false positive rate <br> ● Stabilized large document processing through page-level analysis |
 
-#### Proact US Launch (2025.06 - Present)
+#### Proact US Launch (Jun 2025 - Present)
 
 | | |
 |---|---|
-| **Desc** | AI-based Teaming Partner service Infra and Server design & development for US market |
+| **Desc** | Designing and developing the infrastructure and server for the AI-based Teaming Partner service targeting the US market |
 | **Tech** | Go, Gin, FX, MySQL, ElasticSearch, AWS, OpenAI API, HAProxy |
 | **Title** | Senior Software Engineer |
-| **Role** | ● Application (From network to DB) architecture design <br> ● LLM API integration and AI response pipeline design <br> ● Data structure and format definition & design <br> ● Service Business Logic design & implementation |
-| **Result** | ● Service launched in US market, Aug 2025 <br> ● Acquired 5 US clients through 6-week on-site deployment trip; expansion ongoing |
+| **Role** | ● Designing end-to-end application architecture (from network to DB) <br> ● Integrating LLM APIs and designing the AI response pipeline <br> ● Defining and designing data structures and formats <br> ● Designing and implementing service business logic |
+| **Result** | ● Launched the service in the US market in Aug 2025 <br> ● Acquired 5 US clients through a 6-week on-site deployment trip; expansion ongoing |
 
-#### Enterprise Service (2025.03 - Present)
+#### Enterprise Service (Mar 2025 - Present)
 
 | | |
 |---|---|
-| **Desc** | Solution development and improvement for Enterprise (Thermofisher) |
+| **Desc** | Developing and improving solutions for an enterprise client (Thermofisher) |
 | **Tech** | Python, FastAPI, Temporal, MySQL, ElasticSearch, Docker Swarm, HAProxy |
 | **Title** | Senior Software Engineer |
-| **Role** | ● API service documentation/development policy establishment <br> ● Project management feature design & development for individual postings <br> ● Spec analysis, project approval process design & development <br> ● Batch design & management template using Temporal <br> ● Node and network architecture design for internal deployment <br> ● Security vulnerability assessment and audit response |
-| **Result** | ● Successful project handover and knowledge sharing seminar <br> ● Project achieved 1st place at client's internal presentation <br> ● Selected as partner for Phase 2 contract in 2026 |
+| **Role** | ● Establishing API service documentation and development policies <br> ● Designing and developing project management features for individual postings <br> ● Analyzing specifications and designing/developing project approval workflows <br> ● Designing batch processing and management templates using Temporal <br> ● Designing and building node and network architecture for internal deployment <br> ● Conducting security and vulnerability assessments and responding to audits |
+| **Result** | ● Completed successful project handover and knowledge-sharing seminar <br> ● Project ranked 1st at the client's internal presentation <br> ● Selected as a partner for the Phase 2 contract in 2026 |
 
 ---
 
-### DOZN (2019.11 – 2025.02)
+### DOZN (Nov 2019 – Feb 2025)
 
-#### R&D Lab (2022.09 - 2025.02)
-
-| | |
-|---|---|
-| **Desc** | R&D Lab management and internal/external request handling |
-| **Title** | R&D Lab Director & Head of New Business Development (concurrent) |
-| **Role** | ● Lab personnel and budget management <br> ● Research project selection and progress management <br> ● Corporate due diligence response and documentation <br> ● IPO preliminary review documentation and response |
-| **Result** | ● R&D Lab qualification renewal and stable project management <br> ● IPO preliminary review application completed, Jul 2024 <br> ● KOSDAQ listing completed, Feb 2025 |
-
-#### KakaoPay Loan Standard API Relay System (2020.05 - 2025.02)
+#### Corporate R&D Lab (Sep 2022 - Feb 2025)
 
 | | |
 |---|---|
-| **Desc** | Building a loan standard API relay system (framework) for KakaoPay loan comparison service |
+| **Desc** | Managed the corporate R&D lab and handled internal/external requests |
+| **Title** | Director, Corporate R&D Lab & Head, New Business Development Division (concurrent) |
+| **Role** | ● Managed lab personnel and budget <br> ● Selected and managed research projects <br> ● Responded to corporate due diligence and prepared related documentation <br> ● Prepared and responded to IPO preliminary review documentation |
+| **Result** | ● Maintained R&D lab qualification and ensured stable project management <br> ● Completed IPO preliminary review application in Jul 2024 <br> ● Completed KOSDAQ listing in Feb 2025 |
+
+#### KakaoPay Loan Standard API Relay System (May 2020 - Feb 2025)
+
+| | |
+|---|---|
+| **Desc** | Built a loan standard API relay system (framework) for the KakaoPay loan comparison service |
 | **Tech** | Go, Fiber, Kotlin, Spring Boot, Spring Cloud, MariaDB, Galera, Redis, Kafka, JPA, Docker, Swarm, EFK, Elastic APM, HAProxy |
-| **Role** | ● Architecture design for business expansion and external business communication <br> ● Service architecture design for MSA and HA configuration <br> ● Log/aggregation/monitoring design and alarm system construction <br> ● Service standardization/stabilization and construction guidelines <br> ● Framework tech stack migration for resource optimization (Spring Boot => Golang) |
-| **Result** | ● From 1 service/3 institutions/2.3M KRW monthly → 5 services/59 institutions/220M KRW monthly: 95x growth <br> ● Rapid transaction volume growth through error control and fast integration expansion <br> ● Continuous partnership expansion built on trust from rapid issue detection and response <br> ● 50% reduction in setup time with standardized guidelines; 3 engineers managing all institutions <br> ● 90% server resource reduction and 80% restart time reduction through framework migration |
+| **Role** | ● Designed architecture for business expansion and led external business communication <br> ● Designed service architecture for MSA and HA configuration <br> ● Designed log/aggregation/monitoring systems and built an alarm system <br> ● Established service standardization/stabilization and construction guidelines <br> ● Migrated the framework tech stack from Spring Boot to Golang for resource optimization and quality improvement |
+| **Result** | ● Grew from 1 service / 3 institution integrations / KRW 2.3M monthly revenue to 5 services / 59 institution integrations / KRW 220M monthly revenue: 95x growth <br> ● Rapidly scaled transaction volume through error control per financial institution and service type, and fast integration expansion <br> ● Built trust through rapid issue detection and response, driving continuous partnership expansion <br> ● Reduced setup time by 50% with standardized guidelines; enabled 3 engineers to manage all institutions <br> ● Reduced server resource usage by 90% and service restart time by 80% through framework migration |
 
-#### SPECTA: MyData Business License Application (2020.09 - 2022.11)
+#### SPECTA: MyData Business License Application (Sep 2020 - Nov 2022)
 
 | | |
 |---|---|
-| **Desc** | Proposed online fin-transaction aggregation service SPECTA and led internal MyData business license application |
+| **Desc** | Proposed the online fin-transaction aggregation service SPECTA and led the in-house MyData business license application process |
 | **Tech** | Flutter, AWS, CDK, Typescript, Figma |
-| **Role** | ● Service and business model planning <br> ● Project oversight and service/security design for financial policy compliance <br> ● MyData application drafting and FSS requirements response <br> ● Documentation and presentation for external evaluation |
-| **Result** | ● MyData business license application completed, Jun 2022 <br> ● FSS external evaluation committee interview response <br> ● Project discontinued due to company policy change on business viability |
+| **Role** | ● Planned the service and business model <br> ● Oversaw the project and designed service and security architecture for financial policy compliance <br> ● Drafted the MyData application and responded to Financial Supervisory Service (FSS) requirements <br> ● Prepared documentation and delivered presentations for external evaluation |
+| **Result** | ● Completed the MyData business license application in Jun 2022 <br> ● Responded to the FSS external evaluation committee interview <br> ● Project discontinued due to a company policy change regarding business viability and necessity of MyData |
 
-#### Company-wide DevOps Modernization (2019.11 - 2025.02)
+#### Company-wide DevOps Modernization (Nov 2019 - Feb 2025)
 
 | | |
 |---|---|
-| **Desc** | Building infrastructure and process guides for company-wide development environment modernization |
+| **Desc** | Built infrastructure and established process guides for company-wide development environment modernization |
 | **Tech** | Docker, Docker Swarm, Portainer, Gitlab, drone.io, ELK, EFK, Kafka |
-| **Role** | ● Git server introduction and CI/CD environment setup with drone.io <br> ● Service containerization and Swarm orchestration environment setup <br> ● Docker management simplification with Portainer and account-based control <br> ● Log system modernization with ELK/EFK and Kibana monitoring <br> ● Notification server construction using Kafka |
-| **Result** | ● Source code management process establishment and build/deploy automation <br> ● Eliminated dev/prod environment gap through containerization <br> ● Zero-downtime deployment and physical-server-agnostic scale-out via orchestration <br> ● Modernized and automated previously manual console-based log/monitoring systems <br> ● Network-agnostic notification environment with consistent API |
+| **Role** | ● Introduced a Git server and set up a CI/CD environment using drone.io with usage guides <br> ● Introduced service containerization via Docker and set up an orchestration environment using Swarm <br> ● Simplified Docker management with Portainer and established account-based Docker control <br> ● Modernized the log system using ELK/EFK and introduced aggregation and monitoring via Kibana <br> ● Built a notification server using Kafka |
+| **Result** | ● Established source code management processes and automated build/deploy workflows <br> ● Eliminated the gap between development and production environments through containerization <br> ● Achieved zero-downtime deployment and physical-server-agnostic scale-out through orchestration <br> ● Modernized and automated the previously manual, console-based log/aggregation/monitoring system <br> ● Built a network-agnostic notification environment with a consistent API |
 
 ---
 
-### [US] Yosemite X, [KR] Blockchain Labs Inc. ( 2018.05 – 2019.05 )
+### [US] Yosemite X, [KR] Blockchain Labs Inc. ( May 2018 – May 2019 )
 
-#### Blockchain-based Payment Card (2018.11 - 2019.05)
+#### Blockchain-based Payment Card (Nov 2018 - May 2019)
 
 | | |
 |---|---|
-| **Desc** | Blockchain-based deferred payment system and control system development in the US |
+| **Desc** | Developed a blockchain-based deferred payment system and an operations control system in the United States |
 | **Tech** | Kotlin, Spring Boot, Spring Cloud, Spring Config, MySql, JPA, Docker, kubernetes, Python, Django, Bootstrap, VueJs |
-| **Role** | ● Fiat Money (USD) and Token (proprietary token) sync & exchange transaction management system <br> ● Email parsing-based fiat money deposit confirmation (Chase Bank) <br> ● Token issue/redeem and sync & scheduled processing <br> ● KYC implementation via Google API email verification and Twilio SMS <br> ● Web-based control system for ledger verification, troubleshooting, and manual processing |
-| **Result** | ● Yosemite Card launched <br> ● Marketing around Stanford and UC Berkeley; verified real sign-up and payment/settlement process <br> ● Enhanced control system for non-technical/sales staff usability |
+| **Role** | ● Built a sync & exchange transaction management system between fiat money (USD) and proprietary tokens <br> ● Implemented fiat money deposit confirmation via email parsing (Chase Bank) <br> ● Implemented token issuance/redemption and sync & scheduled processing <br> ● Implemented KYC functionality using Google API email code verification and Twilio SMS verification <br> ● Developed a web-based operations control system for ledger record verification/search, incident response, and manual processing |
+| **Result** | ● Launched the Yosemite Card <br> ● Conducted marketing around Stanford and UC Berkeley; verified real sign-up, payment, and settlement processes <br> ● Enhanced the operations control system to enable non-technical and sales staff to conduct outreach and marketing with ease |
 
-#### Blockchain-based Rent Payment Service (2018.06 - 2018.11)
+#### Blockchain-based Rent Payment Service (Jun 2018 - Nov 2018)
 
 | | |
 |---|---|
-| **Desc** | Service handling rent payment management and delinquency tracking on behalf of landlords |
+| **Desc** | Developed a service that manages rent payments on behalf of landlords, handling payment and delinquency management so landlords do not need to track payment status themselves |
 | **Tech** | Kotlin, Spring Boot, Spring Cloud, Spring Config, MySql, JPA, Docker |
-| **Role** | ● Fiat Money (KRW) and Token (proprietary token) sync & exchange transaction management system <br> ● Deposit/withdrawal for both Token and Fiat Money with rollback functionality |
-| **Result** | ● KFTC open platform fiat money deposit/withdrawal API application and implementation (with KYC) <br> ● Nice ID and Dream Security identity verification service contract and development (independent identity verification service) |
+| **Role** | ● Built a sync & exchange transaction management system between fiat money (KRW) and proprietary tokens <br> ● Implemented deposit/withdrawal functionality for both tokens and fiat money, with rollback on failure |
+| **Result** | ● Applied for and received authorization to use the KFTC (Korea Financial Telecommunications & Clearings Institute) open platform fiat money deposit/withdrawal API, and implemented related functionality (with KYC) <br> ● Contracted and developed an identity verification service with Nice ID and Dream Security (independent identity verification service) |
 
 ---
 
-### Viva Republica (2016.06 – 2018.05)
+### Viva Republica (Jun 2016 – May 2018)
 
 #### Real Estate Micro-Investment Service
 
 | | |
 |---|---|
-| **Desc** | Authentication and structure refactoring to support multiple external vendor products in real estate micro-investment service |
+| **Desc** | Refactored authentication and data structures to support multiple external vendor products within the real estate micro-investment service |
 | **Tech** | VueJs, Spring Boot, Kotlin, Java, MySql, JPA, HTML, CSS, JavaScript |
-| **Role** | ● DB data structure change from single to multi-vendor (1 → 3 vendors) <br> ● Authentication design for vendor service pages (easily extensible) <br> ● A/B testing support (Leanplum) |
-| **Result** | ● New DB schema design <br> ● New authentication architecture <br> ● 3 A/B test variants supported |
+| **Role** | ● Changed the DB data structure from a single-vendor to a multi-vendor architecture (1 → 3 vendors) <br> ● Designed an extensible authentication mechanism for vendor service pages (easily accommodating additional vendors) <br> ● Implemented A/B testing support (Leanplum) |
+| **Result** | ● Delivered a new DB schema for the multi-vendor version <br> ● Delivered a new authentication architecture <br> ● Supported 3 A/B test variants |
 
 #### Toss Server 2.0
 
 | | |
 |---|---|
-| **Desc** | ● Refactoring monolithic server into function-separated servers to reduce dependencies and enable parallel development <br> ● Identity verification service redundancy |
+| **Desc** | ● Refactored the existing monolithic server by integrating and separating features by function, restructuring into a simpler server architecture to reduce inter-feature dependencies and enable parallel development <br> ● Implemented identity verification service redundancy |
 | **Tech** | Java, Spring Boot, MySql, JPA, MyBatis |
-| **Role** | ● Server architecture refactoring while maintaining requirements and live service stability <br> ● Dependency analysis and server separation communication <br> ● Service stabilization through defensive code and policy module improvements <br> ● Identity verification redundancy with auto failover & failback (Inbiznet, Dream Security) |
-| **Result** | ● 1 Tier → 3 Tier separation <br> ● Common modules managed as "core" with API definitions for cross-service use <br> ● Enabled independent parallel development by eliminating code duplication and team separation |
+| **Role** | ● Refactored the server architecture while maintaining existing requirements and without impacting the live service <br> ● Analyzed inter-feature dependencies and coordinated server separation across teams <br> ● Stabilized the service through defensive code and policy module structure improvements <br> ● Implemented identity verification service redundancy with automatic failover & failback using Inbiznet and Dream Security |
+| **Result** | ● Separated the server from 1 tier to 3 tiers <br> ● Managed common modules as a "core" library, defining and providing APIs for use by other servers/services <br> ● Eliminated duplicate code and separated teams to enable independent, parallel development by function |
 
 ---
 
-### LG Electronics (2011.02 – 2016.05)
+### LG Electronics (Feb 2011 – May 2016)
 
 #### IoT-based Home Intelligent System
 
 | | |
 |---|---|
-| **Desc** | ● Home Automation / Home Energy Monitoring System development <br> ● Rule Engine development. Rule Engine-based Scenario planning and development <br> ● Smart Home Gateway control client development |
+| **Desc** | ● Developed a Home Automation / Home Energy Monitoring System <br> ● Developed a Rule Engine and planned/developed Rule Engine-based scenarios <br> ● Developed a client for controlling the Smart Home Gateway |
 | **Tech** | Android, Java, OSGi, Vert.x, C, Parse, Python |
-| **Role** | ● REST Service for gateway external communication (Java, OSGi, Vert.x) <br> ● Energy usage data collection module via external BaaS (Java, Parse Cloud) <br> ● Gateway communication module for sensors and Arduino (C, Python, Java) <br> ● Information display and rule configuration module & App (Android, Java) |
-| **Result** | ● Gateway Control App development (100% contribution) <br> ● SDK for external Rule Component development |
+| **Role** | ● Developed a REST service for gateway external communication (Java, OSGi, Vert.x) <br> ● Developed a module to collect energy usage data via an external BaaS (Java, Parse Cloud) <br> ● Developed a module for gateway communication with sensors and Arduino (C, Python, Java) <br> ● Developed an information display and rule configuration module and app for gateway integration (Android, Java) |
+| **Result** | ● Developed the Gateway Control App (100% contribution) <br> ● Developed an SDK enabling external parties to develop and provide Rule Components |
 
 #### Dynamic Feature Loading/Update Module
 
 | | |
 |---|---|
-| **Desc** | Module for dynamically loading features from storage server to Android Phone |
+| **Desc** | Developed a module for dynamically loading required features from a storage server and adding/updating them on Android phones |
 | **Tech** | Android, Java |
-| **Role** | ● System settings polling and push via Android Service <br> ● Device registration and data download via REST API |
-| **Result** | ● Dynamic application of View and Service Logic to Phone <br> ● Shipped on mass-produced LG G3 Phone |
+| **Role** | ● Developed system settings polling and push functionality using Android Service <br> ● Developed device registration and data download functionality via REST API |
+| **Result** | ● Enabled dynamic application of View and Service Logic to phones <br> ● Shipped on the mass-produced LG G3 phone |
 
 #### Intelligent Service Library Refactoring
 
 | | |
 |---|---|
-| **Desc** | ● Removing duplicate implementations and consolidating similar logic in a years-old library <br> ● Separating Android dependencies to enable Pure Java and Android usage |
+| **Desc** | ● Removed duplicate feature implementations and consolidated similar logic in a library that had been developed and used for several years <br> ● Separated Android-dependent portions to enable independent use as both Pure Java and Android modules |
 | **Tech** | Android, Java |
-| **Role** | ● Full architecture design and refactoring (100% contribution) <br> ● Feature componentization, logic templating, module interface abstraction (Java) <br> ● Package-level modularization for separate usage (Java) |
-| **Result** | ● Core-level code lines reduced by 20% <br> ● Key class and logic usage doubled (duplicate/similar code consolidation) <br> ● Special performance bonus awarded |
+| **Role** | ● Designed the overall architecture and executed the refactoring (100% contribution) <br> ● Componentized duplicate features, templatized similar logic, and abstracted module interfaces (Java) <br> ● Modularized at the package level for independent usage (Java) |
+| **Result** | ● Reduced core-level code lines by 20% compared to the previous version <br> ● Doubled the usage count of key classes and logic (through consolidation of duplicate and similar code) <br> ● Awarded a special performance bonus for the project outcome |
 
 #### Other Projects
 
-1. HTTP Streaming (RTP/RTSP, HLS) Component on Android Framework (C++)
-2. Time/location/weather-triggered event Social Memo creation & sharing service APP using BaaS (Kinvey Cloud, Android)
-3. Dynamic recommendation rule composition server architecture and framework (Java, Vert.x, Spring Integration)
+1. Developed an HTTP Streaming (RTP/RTSP, HLS) component running on the Android Framework (C++)
+2. Developed a service app for creating and sharing events triggered by time, location, and weather in the form of Social Memos using BaaS (Kinvey Cloud, Android)
+3. Designed a server architecture and developed a foundational framework for dynamically composing recommendation rules based on context awareness (Java, Vert.x, Spring Integration)
 
 ---
 
-### Innowireless (2009.02 - 2011.02)
+### Innowireless (Feb 2009 - Feb 2011)
 
 #### Diagnosis Monitoring Tool
 
 | | |
 |---|---|
-| **Desc** | ● Application development for telecom spec verification and new spec additions <br> ● Spec analysis, data logging/analysis/visualization component development (tables, chart graphs, etc.) |
+| **Desc** | ● Developed applications for telecom spec verification and added new spec support <br> ● Developed components for spec analysis, data logging/analysis/visualization (tables, chart graphs, etc.) |
 | **Tech** | Delphi, C/C++ |
-| **Role** | ● Real-time logging and monitoring/diagnosis/reporting module (Delphi, C/C++) <br> ● External client requirements analysis and UI/data visualization (Delphi) <br> ● Telecom spec analysis and verification module (Delphi, C/C++) |
-| **Result** | ● DOCOMO Zigbee scanner, LG/Samsung LTE spec verification <br> ● KT/SKT/LGU+ device verification response <br> ● Client maintenance and feature enhancement for product line |
+| **Role** | ● Developed real-time logging and monitoring/diagnosis/reporting modules (Delphi, C/C++) <br> ● Analyzed external client requirements and implemented corresponding UI and data visualization features (Delphi) <br> ● Analyzed telecom specs and developed modules for spec verification (Delphi, C/C++) |
+| **Result** | ● Verified DOCOMO Zigbee scanner, LG/Samsung LTE specs <br> ● Responded to device verification requests from KT/SKT/LGU+ <br> ● Responded to client maintenance and feature addition/enhancement requests for the company's product line |
 
 #### Mobile Video Analysis for State Analysis & Test Automation
 
 | | |
 |---|---|
-| **Desc** | ● Special request from KT. Solo developer, 100M+ KRW budget, 3-month development, 1-month verification <br> ● Screen feature registration and analysis for automated testing per device/service |
+| **Desc** | ● Special request from KT. Solo developer, budget exceeding KRW 100M, 3-month development period, 1-month verification <br> ● Registered screen characteristics for each step of device/service operations and analyzed them for automated execution and testing |
 | **Tech** | Delphi |
-| **Role** | ● Per-step video capture, selection, and feature input functionality <br> ● Adaptive analysis with new video addition for ambiguous results <br> ● Mouse-based video selection/registration UX proposal <br> ● Auto-generated HTML report with captured screenshots and automated delivery |
-| **Result** | ● Passed 72-hour stress test (no error, no fault) <br> ● Successful demo via proactively proposed video registration UX; positive end-user feedback <br> ● Seoul Phase 1 success led to contract expansion and nationwide Phase 2 |
+| **Role** | ● Added functionality for per-step video capture, selection, and feature input <br> ● Added functionality to supplement analysis by registering new video when ambiguous portions were found during automated execution/testing <br> ● Proposed and added a UX for convenient mouse-based video selection and registration <br> ● Implemented automatic HTML report generation with captured video screenshots and automated delivery |
+| **Result** | ● Passed a 72-hour stress test (no error, no fault) <br> ● Successful demo driven by the proactively proposed video registration UX; received positive feedback from end users <br> ● Phase 1 success (Seoul) led to a significant contract value increase and a nationwide Phase 2 contract |
 
 ---
 
 ## Other Activities
 
-- Korea University Graduate School, Guest Lecture on Intelligent Mobility (2023.09.13)
-- Robert Walters, Young Developers Meetup Season 3 Mentor (2023.08.19)
-- Dongguk University Programming Lecturer (2019.09 - 2020.08)
+- Korea University Graduate School, Guest Lecture on Intelligent Mobility (Sep 2023)
+- Robert Walters, Young Developers Meetup Season 3 Mentor (Aug 2023)
+- Dongguk University Programming Lecturer (Sep 2019 - Aug 2020)
   - '20 S1: Advanced Multimedia Programming (C++)
   - '19 S2: Basic Multimedia Programming (C)
-- OLULO Co-Founder & Technical Advisor, MEXICO (2019.04 - 2025.02)
-- NASK Inc. Co-Founder & Technical Advisor (2017.12 - 2025.01)
+- OLULO Co-Founder & Technical Advisor, MEXICO (Apr 2019 - Feb 2025)
+- NASC Inc. Co-Founder & Technical Advisor (Dec 2017 - Jan 2025)
 
 ---
 
 ## Education
 
-**B.B.A. Hanyang Cyber University. Seoul. (2010.03 - 2012.02, 4.35 / 4.5)** <br>
+**B.B.A. Hanyang Cyber University. Seoul. (Mar 2010 - Feb 2012, 4.35 / 4.5)** <br>
 Business Administration, HR/Organization/Strategy
 
-**M.S. Korea University. Seoul. (2006.03 - 2009.02, 4.23 / 4.5)** <br>
+**M.S. Korea University. Seoul. (Mar 2006 - Feb 2009, 4.23 / 4.5)** <br>
 Electrical & Computer Engineering
 
-**B.S. Korea University. Seoul. (2002.03 - 2006.02, 3.61 / 4.5)** <br>
+**B.S. Korea University. Seoul. (Mar 2002 - Feb 2006, 3.61 / 4.5)** <br>
 Electronic Engineering
