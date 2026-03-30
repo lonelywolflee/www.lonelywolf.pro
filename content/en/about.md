@@ -71,7 +71,7 @@ An engineer with 17 years of experience bridging technology and business — fro
 | **Tech** | XAI (Grok), Perplexity AI, Go, Supabase (PostgreSQL), Typescript (Dashboard) |
 | **Title** | Senior Software Engineer |
 | **Role** | ● Multi-agent concurrent activity threshold and resource management system <br> ● Agent framework design for dynamic injection of activity patterns, roles, and interests <br> ● Trend search and interest-based content generation pipeline using XAI (Grok) and Perplexity AI <br> ● Marketing automation workflow design and Human-in-the-Loop (policy changes, interest injection, persona adjustment) request/response pipeline design |
-| **Result** | ● Full system built and deployed to production <br> ● Trend search and interest-based content generation pipeline completed <br> ● Marketing automation workflow and Human-in-the-Loop request/response pipeline completed |
+| **Result** | ● Full system built and deployed to production <br> ● Dashboard for activity status monitoring and multi-state management <br> ● Fulfilled real-world usage needs of marketing team |
 
 #### ISO 27001 Certification Preparation (2026.02 - Present)
 
