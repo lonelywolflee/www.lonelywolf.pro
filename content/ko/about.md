@@ -63,6 +63,16 @@ pdf: true
 
 ### Cliwant (2025.02 – Present)
 
+#### AI 기반 SNS 계정 관리 Agent 고도화 (2026.03 - Present)
+
+| | |
+|---|---|
+| **내용** | 다수의 X(Twitter) 계정에 페르소나 및 관심사를 부여하여, 관심 주제 탐색·반응·콘텐츠 정리를 자동화하는 다중 에이전트 관리 프레임워크 개발 |
+| **기술** | XAI (Grok), Perplexity AI, Go, Supabase (PostgreSQL), Typescript (Dashboard) |
+| **직책** | Senior Software Engineer |
+| **역할** | ● 다중 에이전트 동시 활동 수 Threshold 및 리소스 관리 시스템 구축 <br> ● 활동 패턴·역할·관심사를 동적으로 주입할 수 있는 에이전트 프레임워크 설계 <br> ● XAI (Grok), Perplexity AI를 활용한 트렌드 검색 및 관심 콘텐츠 생성 파이프라인 구축 <br> ● 마케팅 자동화 워크플로우 설계 및 Human-in-the-Loop (정책 변경, 관심사 주입, 페르소나 조정) 를 위한 요청/응답 파이프라인 설계 |
+| **성과** | ● 전체 시스템 구축 완료 및 운영 적용 <br> ● 트렌드 검색 및 관심 콘텐츠 생성 파이프라인 구축 완료 <br> ● 마케팅 자동화 워크플로우 설계 및 Human-in-the-Loop 요청/응답 파이프라인 설계 완료 |
+
 #### ISO 27001 인증 취득 준비 (2026.02 - Present)
 
 | | |
