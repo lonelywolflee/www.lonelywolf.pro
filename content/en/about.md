@@ -17,7 +17,7 @@ pdf: true
 
 ## Summary
 
-A software engineer with 17 years of experience connecting technology and business, spanning server architecture design, enterprise client engagement, and business development. Designed and operated MSA/HA systems across finance, blockchain, and AI domains, with hands-on experience deploying services directly to enterprise clients in both the United States and South Korea. Currently expanding into AI-era enterprise solutions, leading LLM-based prompt engineering and agent design, as well as establishing ISO 27001 security compliance frameworks.
+A seasoned software engineer with 17 years of experience turning technology into business results, spanning server architecture design, enterprise client engagement, and business development. Architected the KakaoPay loan relay system and grew it from KRW 2.3M to KRW 220M in monthly revenue, a 95x increase, while leading a framework migration from Spring Boot to Go that cut server resource usage by 90%. Designed and operated MSA/HA systems across finance, blockchain, and AI domains, and directly deployed services to and expanded business with enterprise clients in both the United States and South Korea. Currently leading LLM-based prompt engineering and agent design, as well as establishing ISO 27001 security compliance frameworks, building enterprise solutions for the AI era.
 
 ---
 
