@@ -155,6 +155,18 @@
   }
 }
 
+/* Resume page: reduce base font size to match table text */
+.prose-resume {
+  font-size: 0.875rem !important; /* 14px — same as prose-td:text-sm */
+  line-height: 1.6 !important;
+}
+.prose-resume li {
+  font-size: 0.875rem !important;
+}
+.prose-resume p {
+  font-size: 0.875rem !important;
+}
+
 /* Resume table overrides — outside @layer to beat Tailwind Typography specificity */
 .prose-void table {
   table-layout: fixed !important;

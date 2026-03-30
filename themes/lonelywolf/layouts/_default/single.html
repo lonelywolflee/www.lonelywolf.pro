@@ -41,7 +41,7 @@
   </header>
 
   {{/* Content */}}
-  <div class="prose-void pl-6">
+  <div class="prose-void pl-6{{ if .Params.pdf }} prose-resume{{ end }}">
     {{ .Content }}
   </div>
 
