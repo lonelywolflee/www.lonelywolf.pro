@@ -1,5 +1,6 @@
 ---
 title: "Yonghwan Lee"
+date: 2026-03-30
 description: "Yonghwan Lee - Senior Software Engineer & Business Developer with 15+ years of experience bridging technology and business."
 layout: "single"
 pdf: true
@@ -7,7 +8,7 @@ pdf: true
 
 <div class="resume-contact">
 
-**LinkedIn** : https://www.linkedin.com/in/lonelywolflee
+**LinkedIn** : https://www.linkedin.com/in/lonelywolflee<br>
 **Email** : lonelywolf.lee@gmail.com
 
 </div>
