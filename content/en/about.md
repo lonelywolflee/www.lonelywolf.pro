@@ -17,7 +17,7 @@ pdf: true
 
 ## Summary
 
-A seasoned software engineer with 17 years of experience turning technology into business results, spanning server architecture design, enterprise client engagement, and business development. Architected the KakaoPay loan relay system and grew it from KRW 2.3M to KRW 220M in monthly revenue, a 95x increase, while leading a framework migration from Spring Boot to Go that cut server resource usage by 90%. Designed and operated MSA/HA systems across finance, blockchain, and AI domains, and directly deployed services to and expanded business with enterprise clients in both the United States and South Korea. Currently leading LLM-based prompt engineering and agent design, as well as establishing ISO 27001 security compliance frameworks, building enterprise solutions for the AI era.
+A seasoned software engineer with 17 years of experience turning technology into business results, spanning server architecture design, enterprise client engagement, and business development. Architected the KakaoPay loan relay system and grew it from KRW 2.3M to KRW 220M in monthly revenue, a 95x increase, while leading a framework migration from Spring Boot to Go that cut server resource usage by 90%. Designed and operated MSA/HA systems across finance, blockchain, and AI domains, directly engaging with 20+ financial institutions and global enterprise clients to drive requirements gathering, service deployment, and business expansion in both the United States and South Korea. Currently leading LLM-based prompt engineering and agent design, as well as establishing ISO 27001 security compliance frameworks, building enterprise solutions for the AI era.
 
 ---
 
@@ -63,7 +63,7 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 
 ### Cliwant (Feb 2025 – Present)
 
-#### AI-powered SNS Account Management Agent Enhancement (Mar 2026 - Present)
+#### AI-powered Social Media Account Management Agent Enhancement (Mar 2026 - Present)
 
 | | |
 |---|---|
@@ -109,8 +109,8 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 | **Overview** | Developing and improving solutions for an enterprise client (Thermofisher) |
 | **Tech** | Python, FastAPI, Temporal, MySQL, ElasticSearch, Docker Swarm, HAProxy |
 | **Title** | Senior Software Engineer |
-| **Role** | ● Establishing API service documentation and development policies <br> ● Designing and developing project management features for individual postings <br> ● Analyzing specifications and designing/developing project approval workflows <br> ● Designing batch processing and management templates using Temporal <br> ● Designing and building node and network architecture for internal deployment <br> ● Conducting security and vulnerability assessments and responding to audits |
-| **Impact** | ● Completed successful project handover and knowledge-sharing seminar <br> ● Project ranked 1st at the client's internal presentation <br> ● Selected as a partner for the Phase 2 contract in 2026 |
+| **Role** | ● Conducted weekly meetings with the client's planning team and end-user departments to gather requirements and drive service improvements <br> ● Establishing API service documentation and development policies <br> ● Designing and developing project management features for individual postings <br> ● Analyzing specifications and designing/developing project approval workflows <br> ● Designing batch processing and management templates using Temporal <br> ● Designing and building node and network architecture for internal deployment <br> ● Conducting security and vulnerability assessments and responding to audits |
+| **Impact** | ● Delivered project handover and technical knowledge-sharing seminar to the client's planning team and end-user departments <br> ● Project ranked 1st at the client's internal presentation <br> ● Selected as a partner for the Phase 2 contract in 2026 |
 
 ---
 
@@ -131,7 +131,7 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 |---|---|
 | **Overview** | Built a loan standard API relay system (framework) for the KakaoPay loan comparison service |
 | **Tech** | Go, Fiber, Kotlin, Spring Boot, Spring Cloud, MariaDB, Galera, Redis, Kafka, JPA, Docker, Swarm, EFK, Elastic APM, HAProxy |
-| **Role** | ● Designed architecture for business expansion and led external business communication <br> ● Designed service architecture for MSA and HA configuration <br> ● Designed log/aggregation/monitoring systems and built an alarm system <br> ● Established service standardization/stabilization and construction guidelines <br> ● Migrated the framework tech stack from Spring Boot to Golang for resource optimization and quality improvement |
+| **Role** | ● Directly engaged with 20+ financial institutions across all levels from executives to practitioners, leading requirements gathering and technical alignment (key milestones in-person, day-to-day via messenger/email/phone) <br> ● Designed architecture for business expansion and led external business communication <br> ● Designed service architecture for MSA and HA configuration <br> ● Designed log/aggregation/monitoring systems and built an alarm system <br> ● Established service standardization/stabilization and construction guidelines <br> ● Migrated the framework tech stack from Spring Boot to Golang for resource optimization and quality improvement |
 | **Impact** | ● Grew from 1 service / 3 institution integrations / KRW 2.3M monthly revenue to 5 services / 59 institution integrations / KRW 220M monthly revenue: 95x growth <br> ● Rapidly scaled transaction volume through error control per financial institution and service type, and fast integration expansion <br> ● Built trust through rapid issue detection and response, driving continuous partnership expansion <br> ● Reduced setup time by 50% with standardized guidelines; enabled 3 engineers to manage all institutions <br> ● Reduced server resource usage by 90% and service restart time by 80% through framework migration |
 
 #### SPECTA: MyData Business License Application (Sep 2020 - Nov 2022)
