@@ -1,7 +1,7 @@
 ---
 title: "이 용환"
 date: 2026-03-30
-description: "이용환 - Senior Software Engineer & Business Developer. 15년 이상의 경력으로 기술과 사업을 연결합니다."
+description: "이용환 - Senior Software Engineer & Business Developer. 17년 이상의 경력으로 기술과 사업을 연결합니다."
 layout: "single"
 pdf: true
 ---

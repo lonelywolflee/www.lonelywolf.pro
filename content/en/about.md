@@ -1,7 +1,7 @@
 ---
 title: "Yonghwan Lee"
 date: 2026-03-30
-description: "Yonghwan Lee - Senior Software Engineer & Business Developer with 15+ years of experience bridging technology and business."
+description: "Yonghwan Lee - Senior Software Engineer & Business Developer with 17+ years of experience bridging technology and business."
 layout: "single"
 pdf: true
 ---
