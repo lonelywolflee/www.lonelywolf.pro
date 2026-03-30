@@ -34,6 +34,7 @@ An engineer with 17 years of experience bridging technology and business — fro
 ## Career Summary
 
 **Cliwant ( 2025.02 – Present )** <br>
+2026.02 - Present &nbsp; Compliance & Security Lead <br>
 2025.02 - Present &nbsp; Senior Software Engineer
 
 **DOZN ( 2019.11 – 2025.02 )** <br>
@@ -43,7 +44,7 @@ An engineer with 17 years of experience bridging technology and business — fro
 2019.11 - 2020.02 &nbsp; Deputy General Manager (Vietnam Finance Business PM)
 
 **[US] Yosemite X, [KR] Blockchain Labs Inc. ( 2018.05 – 2019.05 )** <br>
-2018.05 - 2019.06 &nbsp; Server Developer
+2018.05 - 2019.05 &nbsp; Server Developer
 
 **Viva Republica ( 2016.06 – 2018.05 )** <br>
 2016.06 - 2018.05 &nbsp; Server Developer

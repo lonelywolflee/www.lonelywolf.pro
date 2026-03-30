@@ -34,6 +34,7 @@ pdf: true
 ## 약력
 
 **Cliwant ( 2025.02 – Present )** <br>
+2026.02 - Present &nbsp; Compliance & Security 책임자 <br>
 2025.02 - Present &nbsp; Senior Software Engineer
 
 **DOZN ( 2019.11 – 2025.02 )** <br>
@@ -43,7 +44,7 @@ pdf: true
 2019.11 - 2020.02 &nbsp; 개발팀 차장 (베트남 금융사업 PM)
 
 **[미] Yosemite X, [한] 블록체인랩스 주식회사 ( 2018.05 – 2019.05 )** <br>
-2018.05 - 2019.06 &nbsp; 서버 개발자
+2018.05 - 2019.05 &nbsp; 서버 개발자
 
 **Viva Republica ( 2016.06 – 2018.05 )** <br>
 2016.06 - 2018.05 &nbsp; 서버 개발자
