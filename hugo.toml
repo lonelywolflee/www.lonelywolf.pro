@@ -70,5 +70,5 @@ paginate = 10
     lineNos = true
 
 [sitemap]
-  changeFreq = 'weekly'
+  changefreq = 'weekly'
   priority = 0.5
