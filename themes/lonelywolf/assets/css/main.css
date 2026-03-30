@@ -122,7 +122,8 @@
 
   /* Nav link with animated underline */
   .nav-link {
-    @apply relative font-mono text-sm uppercase tracking-wider;
+    @apply relative font-mono text-sm uppercase tracking-wider inline-flex items-center;
+    min-height: 44px;
     color: #9ca3af;
     @apply transition-colors duration-200;
   }
@@ -145,6 +146,12 @@
   }
   .light .nav-link::after {
     @apply bg-cyan-dim;
+  }
+
+  /* Minimum touch target for all interactive elements */
+  nav a, footer a {
+    min-height: 44px;
+    @apply inline-flex items-center;
   }
 }
 
