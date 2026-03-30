@@ -259,8 +259,8 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 
 ## Other Activities
 
-- Korea University Graduate School, Guest Lecture on Intelligent Mobility (Sep 2023)
-- Robert Walters, Young Developers Meetup Season 3 Mentor (Aug 2023)
+- Guest Lecturer, Intelligent Mobility course, Korea University Graduate School (Sep 2023)
+- Mentor, Young Developers Meetup Season 3 (hosted by Robert Walters) (Aug 2023)
 - Dongguk University Programming Lecturer (Sep 2019 - Aug 2020)
   - '20 S1: Advanced Multimedia Programming (C++)
   - '19 S2: Basic Multimedia Programming (C)
@@ -271,11 +271,11 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 
 ## Education
 
-**B.B.A. Hanyang Cyber University. Seoul. (Mar 2010 - Feb 2012, 4.35 / 4.5)** <br>
+**B.B.A. Hanyang Cyber University. Seoul. (Mar 2010 - Feb 2012, GPA: 4.35/4.5)** <br>
 Business Administration, HR/Organization/Strategy
 
-**M.S. Korea University. Seoul. (Mar 2006 - Feb 2009, 4.23 / 4.5)** <br>
+**M.S. Korea University. Seoul. (Mar 2006 - Feb 2009, GPA: 4.23/4.5)** <br>
 Electrical & Computer Engineering
 
-**B.S. Korea University. Seoul. (Mar 2002 - Feb 2006, 3.61 / 4.5)** <br>
+**B.S. Korea University. Seoul. (Mar 2002 - Feb 2006, GPA: 3.61/4.5)** <br>
 Electronic Engineering
