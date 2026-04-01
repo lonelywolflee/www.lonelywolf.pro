@@ -42,7 +42,7 @@ Feb 2025 - Present &nbsp; Senior Software Engineer
 Sep 2023 - Feb 2025 &nbsp; Director, Corporate R&D Lab <br>
 Jul 2022 - Feb 2025 &nbsp; Head, New Business Development Division <br>
 Feb 2020 - Jun 2022 &nbsp; R&D Team Lead <br>
-Nov 2019 - Feb 2020 &nbsp; Deputy General Manager, Development Team (Vietnam Finance Business PM)
+Nov 2019 - Feb 2020 &nbsp; Senior Manager, Development Team (Vietnam Finance Business PM)
 
 **[US] Yosemite X, [KR] Blockchain Labs Inc. ( May 2018 – May 2019 )** <br>
 May 2018 - May 2019 &nbsp; Server Developer
@@ -193,7 +193,7 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 |---|---|
 | **Description** | ● Refactored the existing monolithic server by integrating and separating features by function, restructuring into a simpler server architecture to reduce inter-feature dependencies and enable parallel development <br> ● Implemented identity verification service redundancy |
 | **Tech** | Java, Spring Boot, MySql, JPA, MyBatis |
-| **Role** | ● Refactored the server architecture while maintaining existing requirements and without impacting the live service <br> ● Analyzed inter-feature dependencies and coordinated server separation across teams <br> ● Stabilized the service through defensive code and policy module structure improvements <br> ● Implemented identity verification service redundancy with automatic failover & failback using Inbiznet and Dream Security |
+| **Role** | ● Refactored the server architecture while maintaining existing requirements and without impacting the live service <br> ● Analyzed inter-feature dependencies and coordinated server separation across teams <br> ● Stabilized the service through defensive code and policy module structure improvements <br> ● Architected HA system and automatic failover & failback structure using solutions of Inbiznet and Dream Security |
 | **Accomplishments** | ● Separated the server from 1 tier to 3 tiers <br> ● Managed common modules as a "core" library, defining and providing APIs for use by other servers/services <br> ● Eliminated duplicate code and separated teams to enable independent, parallel development by function |
 
 ---
