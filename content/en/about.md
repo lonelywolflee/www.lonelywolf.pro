@@ -70,7 +70,7 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 | **Description** | Developing a multi-agent management framework that assigns personas and interests to multiple X (Twitter) accounts to automate topic discovery, engagement, and content curation |
 | **Tech Stack** | XAI (Grok), Perplexity AI, Go, Supabase (PostgreSQL), Typescript (Dashboard) |
 | **Role** | ● Building a concurrency threshold and resource management system for multi-agent operations <br> ● Designing an agent framework that dynamically injects activity patterns, roles, and interests <br> ● Building a trend search and interest-based content generation pipeline using XAI (Grok) and Perplexity AI <br> ● Designing marketing automation workflows and a Human-in-the-Loop request/response pipeline for policy changes, interest injection, and persona adjustment |
-| **Accomplishments** | ● Completed full system build and deployed to production <br> ● Delivered a dashboard for activity status monitoring and multi-state management <br> ● Met real-world usage needs of the marketing team |
+| **Accomplishments** | ● Provided procedures and guidelines for consistent development <br> ● Enhanced monitoring and control to improve development stability <br> ● Established policies for sustainable operation |
 
 #### ISO 27001 Certification Preparation (Feb 2026 - Present)
 
