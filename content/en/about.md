@@ -79,7 +79,7 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 |---|---|
 | **Description** | Establishing a Compliance & Security framework for ISO 27001 certification |
 | **Title** | Compliance & Security Lead |
-| **Role** | ● Establishing the management framework for certification acquisition and policy governance <br> ● Defining infrastructure design guidelines and executing policies appropriate to company scale <br> ● Planning the certification roadmap and delegating tasks |
+| **Role** | ● Establishing the management framework for certification acquisition and policy governance <br> ● Defining infrastructure design guidelines and executing policies appropriate to company scale <br> ● Planning the certification roadmap and led task assignment |
 | **Accomplishments** | ● Completed the ISO 27001 certification roadmap and delegated all tasks <br> ● Application targeted for completion by Jun 2026 |
 
 #### <i>Cliwant 2.0</i> Risk Analysis Enhancement (Sep 2025 - Oct 2025)
@@ -92,15 +92,15 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 | **Role** | ● Conducted prompt engineering to improve risk analysis accuracy <br> ● Refactored batch document analysis into page-level analysis, including surrounding page context for sentence continuity, performing per-risk-item analysis <br> ● Tuned prompts for API temperature and analysis policy optimization <br> ● Added few-shot examples and authored guidelines to eliminate false positives and control response format <br> ● Implemented an editor agent to verify guideline compliance, and a fallback parser to handle response format parsing failures |
 | **Accomplishments** | ● Improved risk analysis accuracy and reduced false positive rate <br> ● Stabilized large document processing through page-level analysis |
 
-#### <i>Proact</i> US Launch (Jun 2025 - Present)
+#### <i>Proact</i> Service Launch in US (Jun 2025 - Present)
 
 | | |
 |---|---|
-| **Description** | Designing and developing the infrastructure and server for the AI-based Teaming Partner service targeting the US market |
+| **Description** | Designing and developing the infrastructure and server for the AI-based Teaming Partner service, Proact, targeting the US market |
 | **Tech** | Go, Gin, FX, MySQL, ElasticSearch, AWS, OpenAI API, HAProxy |
 | **Title** | Senior Software Engineer |
 | **Role** | ● Designing end-to-end application architecture (from network to DB) <br> ● Integrating LLM APIs and designing the AI response pipeline <br> ● Defining and designing data structures and formats <br> ● Designing and implementing service business logic |
-| **Accomplishments** | ● Launched the service in the US market in Aug 2025 <br> ● Acquired 5 US clients through a 6-week on-site deployment trip; expansion ongoing |
+| **Accomplishments** | ● Launched the service in the US market in Aug 2025 <br> ● Acquired 5 US clients during a six-week business trip local deployment with ongoing expansion |
 
 #### Enterprise Service (Mar 2025 - Present)
 
@@ -109,8 +109,8 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 | **Description** | Developing and improving solutions for an enterprise client (Thermofisher) |
 | **Tech** | Python, FastAPI, Temporal, MySQL, ElasticSearch, Docker Swarm, HAProxy |
 | **Title** | Senior Software Engineer |
-| **Role** | ● Conducted weekly meetings with the client's planning team and end-user departments to gather requirements and drive service improvements <br> ● Establishing API service documentation and development policies <br> ● Designing and developing project management features for individual postings <br> ● Analyzing specifications and designing/developing project approval workflows <br> ● Designing batch processing and management templates using Temporal <br> ● Designing and building node and network architecture for internal deployment <br> ● Conducting security and vulnerability assessments and responding to audits |
-| **Accomplishments** | ● Delivered project handover and technical knowledge-sharing seminar to the client's planning team and end-user departments <br> ● Project ranked 1st at the client's internal presentation <br> ● Selected as a partner for the Phase 2 contract in 2026 |
+| **Role** | ● Conducted weekly meetings with the client's planning team and end-user departments to identify and address requirements for service enhancement <br> ● Establishing API service documentation and development policies <br> ● Designing and developing project management features for each procurement bid <br> ● Analyzing specifications and designing/developing project approval workflows <br> ● Designing batch processing and management templates using Temporal <br> ● Designing and building node and network architecture for internal deployment <br> ● Conducted preliminary actions for security and vulnerability assessments and responded to an audit |
+| **Accomplishments** | ● Completed project handover to the client’s planning team and end-user departments and technical knowledge-sharing seminar <br> ● Project ranked 1st from the client's performance presentation <br> ● Selected as a partner for the Phase 2 contract in 2026 |
 
 ---
 
@@ -120,10 +120,10 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 
 | | |
 |---|---|
-| **Description** | Managed the corporate Research Institute and handled internal/external requests |
+| **Description** | Led the corporate Research Institute and handled internal/external requests |
 | **Title** | Director, Corporate R&D Lab & Head, New Business Development Division (concurrent) |
-| **Role** | ● Managed lab personnel and budget <br> ● Selected and managed research projects <br> ● Responded to corporate due diligence and prepared related documentation <br> ● Prepared and responded to IPO preliminary review documentation |
-| **Accomplishments** | ● Maintained R&D lab qualification and ensured stable project management <br> ● Completed IPO preliminary review application in Jul 2024 <br> ● Completed KOSDAQ listing in Feb 2025 |
+| **Role** | ● Managed staffing and budgets of the Research Institute <br> ● Selected research projects and conducted progress check <br> ● Responded to regulatory due diligence (supporting documents, on-site interviews) <br> ● Prepared documents for IPO preliminary review and addressed follow-up requests |
+| **Accomplishments** | ● Maintained R&D lab qualification and ensured stable project management <br> ● Completed IPO preliminary review application in Jul 2024 <br> ● Successfully listed in KOSDAQ in Mar 2025 |
 
 #### KakaoPay Loan Standard API Relay System (May 2020 - Feb 2025)
 
