@@ -39,10 +39,10 @@ Feb 2026 - Present &nbsp; Compliance & Security Lead <br>
 Feb 2025 - Present &nbsp; Senior Software Engineer
 
 **DOZN ( Nov 2019 – Feb 2025 )** <br>
-Sep 2023 - Feb 2025 &nbsp; Director, Corporate R&D Lab <br>
+Sep 2023 - Feb 2025 &nbsp; Director, Corporate Research Institute <br>
 Jul 2022 - Feb 2025 &nbsp; Head, New Business Development Division <br>
 Feb 2020 - Jun 2022 &nbsp; R&D Team Lead <br>
-Nov 2019 - Feb 2020 &nbsp; Senior Manager, Development Team (Vietnam Finance Business PM)
+Nov 2019 - Feb 2020 &nbsp; Senior Manager, Development Team (PM, Vietnam Finance Business)
 
 **[US] Yosemite X, [KR] Blockchain Labs Inc. ( May 2018 – May 2019 )** <br>
 May 2018 - May 2019 &nbsp; Server Developer
