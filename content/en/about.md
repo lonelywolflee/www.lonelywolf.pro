@@ -63,7 +63,7 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 
 ### Cliwant (Feb 2025 – Present)
 
-#### AI-powered Social Media Account Management Agent Enhancement (Mar 2026 - Present)
+#### Agent Enhancement for AI-powered Social Media Account Management (Mar 2026 - Present)
 
 | | |
 |---|---|
@@ -82,7 +82,7 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 | **Role** | ● Establishing the management framework for certification acquisition and policy governance <br> ● Defining infrastructure design guidelines and executing policies appropriate to company scale <br> ● Planning the certification roadmap and delegating tasks |
 | **Accomplishments** | ● Completed the ISO 27001 certification roadmap and delegated all tasks <br> ● Application targeted for completion by Jun 2026 |
 
-#### Cliwant 2.0 Risk Analysis Enhancement (Sep 2025 - Oct 2025)
+#### <i>Cliwant 2.0</i> Risk Analysis Enhancement (Sep 2025 - Oct 2025)
 
 | | |
 |---|---|
@@ -92,7 +92,7 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 | **Role** | ● Conducted prompt engineering to improve risk analysis accuracy <br> ● Refactored batch document analysis into page-level analysis, including surrounding page context for sentence continuity, performing per-risk-item analysis <br> ● Tuned prompts for API temperature and analysis policy optimization <br> ● Added few-shot examples and authored guidelines to eliminate false positives and control response format <br> ● Implemented an editor agent to verify guideline compliance, and a fallback parser to handle response format parsing failures |
 | **Accomplishments** | ● Improved risk analysis accuracy and reduced false positive rate <br> ● Stabilized large document processing through page-level analysis |
 
-#### Proact US Launch (Jun 2025 - Present)
+#### <i>Proact</i> US Launch (Jun 2025 - Present)
 
 | | |
 |---|---|
@@ -116,11 +116,11 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 
 ### DOZN (Nov 2019 – Feb 2025)
 
-#### Corporate R&D Lab (Sep 2022 - Feb 2025)
+#### Corporate Research Institute (Sep 2022 - Feb 2025)
 
 | | |
 |---|---|
-| **Description** | Managed the corporate R&D lab and handled internal/external requests |
+| **Description** | Managed the corporate Research Institute and handled internal/external requests |
 | **Title** | Director, Corporate R&D Lab & Head, New Business Development Division (concurrent) |
 | **Role** | ● Managed lab personnel and budget <br> ● Selected and managed research projects <br> ● Responded to corporate due diligence and prepared related documentation <br> ● Prepared and responded to IPO preliminary review documentation |
 | **Accomplishments** | ● Maintained R&D lab qualification and ensured stable project management <br> ● Completed IPO preliminary review application in Jul 2024 <br> ● Completed KOSDAQ listing in Feb 2025 |
@@ -134,7 +134,7 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 | **Role** | ● Directly engaged with 20+ financial institutions across all levels from executives to practitioners, leading requirements gathering and technical alignment (key milestones in-person, day-to-day via messenger/email/phone) <br> ● Designed architecture for business expansion and led external business communication <br> ● Designed service architecture for MSA and HA configuration <br> ● Designed log/aggregation/monitoring systems and built an alarm system <br> ● Established service standardization/stabilization and construction guidelines <br> ● Migrated the framework tech stack from Spring Boot to Golang for resource optimization and quality improvement |
 | **Accomplishments** | ● Grew from 1 service / 3 institution integrations / KRW 2.3M monthly revenue to 5 services / 59 institution integrations / KRW 220M monthly revenue: 95x growth <br> ● Rapidly scaled transaction volume through error control per financial institution and service type, and fast integration expansion <br> ● Built trust through rapid issue detection and response, driving continuous partnership expansion <br> ● Reduced setup time by 50% with standardized guidelines; enabled 3 engineers to manage all institutions <br> ● Reduced server resource usage by 90% and service restart time by 80% through framework migration |
 
-#### SPECTA: MyData Business License Application (Sep 2020 - Nov 2022)
+#### <i>SPECTA</i>: MyData Business License Application (Sep 2020 - Nov 2022)
 
 | | |
 |---|---|
