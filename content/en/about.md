@@ -35,12 +35,12 @@ A seasoned software engineer with 17 years of experience turning technology into
 ## Career Summary
 
 **Cliwant ( Feb 2025 – Present )** <br>
-Feb 2026 - Present &nbsp; Compliance & Security Lead <br>
-Feb 2025 - Present &nbsp; Senior Software Engineer
+Feb 2026 - Present &nbsp; Senior Software Engineer, Compliance & Security Lead (concurrent) <br>
+Feb 2025 - 2026.02 &nbsp; Senior Software Engineer
 
 **DOZN ( Nov 2019 – Feb 2025 )** <br>
-Sep 2023 - Feb 2025 &nbsp; Director, Corporate Research Institute <br>
-Jul 2022 - Feb 2025 &nbsp; Head, New Business Development Division <br>
+Sep 2023 - Feb 2025 &nbsp; Head, New Business Development Division & Director, Corporate Research Institute (concurrent) <br>
+Jul 2022 - Aug 2023 &nbsp; Head, New Business Development Division <br>
 Feb 2020 - Jun 2022 &nbsp; R&D Team Lead <br>
 Nov 2019 - Feb 2020 &nbsp; Senior Manager, Development Team (PM, Vietnam Finance Business)
 
@@ -69,7 +69,6 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 |---|---|
 | **Description** | Developing a multi-agent management framework that assigns personas and interests to multiple X (Twitter) accounts to automate topic discovery, engagement, and content curation |
 | **Tech** | XAI (Grok), Perplexity AI, Go, Supabase (PostgreSQL), Typescript (Dashboard) |
-| **Title** | Senior Software Engineer |
 | **Role** | ● Building a concurrency threshold and resource management system for multi-agent operations <br> ● Designing an agent framework that dynamically injects activity patterns, roles, and interests <br> ● Building a trend search and interest-based content generation pipeline using XAI (Grok) and Perplexity AI <br> ● Designing marketing automation workflows and a Human-in-the-Loop request/response pipeline for policy changes, interest injection, and persona adjustment |
 | **Accomplishments** | ● Completed full system build and deployed to production <br> ● Delivered a dashboard for activity status monitoring and multi-state management <br> ● Met real-world usage needs of the marketing team |
 
@@ -78,7 +77,6 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 | | |
 |---|---|
 | **Description** | Establishing a Compliance & Security framework for ISO 27001 certification |
-| **Title** | Compliance & Security Lead |
 | **Role** | ● Establishing the management framework for certification acquisition and policy governance <br> ● Defining infrastructure design guidelines and executing policies appropriate to company scale <br> ● Planning the certification roadmap and led task assignment |
 | **Accomplishments** | ● Completed the ISO 27001 certification roadmap and delegated all tasks <br> ● Application targeted for completion by Jun 2026 |
 
@@ -88,7 +86,6 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 |---|---|
 | **Description** | Enhanced the accuracy and architecture of the existing AI-based risk analysis feature |
 | **Tech** | Python, FastAPI, MySQL, OpenAI API, Prompt Engineering, Agent Design |
-| **Title** | Senior Software Engineer |
 | **Role** | ● Conducted prompt engineering to improve risk analysis accuracy <br> ● Refactored batch document analysis into page-level analysis, including surrounding page context for sentence continuity, performing per-risk-item analysis <br> ● Tuned prompts for API temperature and analysis policy optimization <br> ● Added few-shot examples and authored guidelines to eliminate false positives and control response format <br> ● Implemented an editor agent to verify guideline compliance, and a fallback parser to handle response format parsing failures |
 | **Accomplishments** | ● Improved risk analysis accuracy and reduced false positive rate <br> ● Stabilized large document processing through page-level analysis |
 
@@ -98,7 +95,6 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 |---|---|
 | **Description** | Designing and developing the infrastructure and server for the AI-based Teaming Partner service, Proact, targeting the US market |
 | **Tech** | Go, Gin, FX, MySQL, ElasticSearch, AWS, OpenAI API, HAProxy |
-| **Title** | Senior Software Engineer |
 | **Role** | ● Designing end-to-end application architecture (from network to DB) <br> ● Integrating LLM APIs and designing the AI response pipeline <br> ● Defining and designing data structures and formats <br> ● Designing and implementing service business logic |
 | **Accomplishments** | ● Launched the service in the US market in Aug 2025 <br> ● Acquired 5 US clients during a six-week business trip local deployment with ongoing expansion |
 
@@ -108,7 +104,6 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 |---|---|
 | **Description** | Developing and improving solutions for an enterprise client (Thermofisher) |
 | **Tech** | Python, FastAPI, Temporal, MySQL, ElasticSearch, Docker Swarm, HAProxy |
-| **Title** | Senior Software Engineer |
 | **Role** | ● Conducted weekly meetings with the client's planning team and end-user departments to identify and address requirements for service enhancement <br> ● Establishing API service documentation and development policies <br> ● Designing and developing project management features for each procurement bid <br> ● Analyzing specifications and designing/developing project approval workflows <br> ● Designing batch processing and management templates using Temporal <br> ● Designing and building node and network architecture for internal deployment <br> ● Conducted preliminary actions for security and vulnerability assessments and responded to an audit |
 | **Accomplishments** | ● Completed project handover to the client’s planning team and end-user departments and technical knowledge-sharing seminar <br> ● Project ranked 1st from the client's performance presentation <br> ● Selected as a partner for the Phase 2 contract in 2026 |
 
@@ -121,7 +116,6 @@ Feb 2009 - Feb 2011 &nbsp; Researcher
 | | |
 |---|---|
 | **Description** | Led the corporate Research Institute and handled internal/external requests |
-| **Title** | Director, Corporate R&D Lab & Head, New Business Development Division (concurrent) |
 | **Role** | ● Managed staffing and budgets of the Research Institute <br> ● Selected research projects and conducted progress check <br> ● Responded to regulatory due diligence (supporting documents, on-site interviews) <br> ● Prepared documents for IPO preliminary review and addressed follow-up requests |
 | **Accomplishments** | ● Maintained R&D lab qualification and ensured stable project management <br> ● Completed IPO preliminary review application in Jul 2024 <br> ● Successfully listed in KOSDAQ in Mar 2025 |
 

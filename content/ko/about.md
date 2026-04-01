@@ -35,12 +35,12 @@ pdf: true
 ## 약력
 
 **Cliwant ( 2025.02 – Present )** <br>
-2026.02 - Present &nbsp; Compliance & Security 책임자 <br>
-2025.02 - Present &nbsp; Senior Software Engineer
+2026.02 - Present &nbsp; Senior Software Engineer, Compliance & Security 책임자 (겸임) <br>
+2025.02 - 2026.02 &nbsp; Senior Software Engineer
 
 **DOZN ( 2019.11 – 2025.02 )** <br>
-2023.09 - 2025.02 &nbsp; 기업부설연구소 연구소장 <br>
-2022.07 - 2025.02 &nbsp; 신사업개발실 실장 <br>
+2023.09 - 2025.02 &nbsp; 신사업개발실 실장, 기업부설연구소 연구소장 (겸임) <br>
+2022.07 - 2023.08 &nbsp; 신사업개발실 실장 <br>
 2020.02 - 2022.06 &nbsp; 연구개발팀 팀장 <br>
 2019.11 - 2020.02 &nbsp; 개발팀 차장 (베트남 금융사업 PM)
 
@@ -69,7 +69,6 @@ pdf: true
 |---|---|
 | **내용** | 다수의 X(Twitter) 계정에 페르소나 및 관심사를 부여하여, 관심 주제 탐색·반응·콘텐츠 정리를 자동화하는 다중 에이전트 관리 프레임워크 개발 |
 | **기술** | XAI (Grok), Perplexity AI, Go, Supabase (PostgreSQL), Typescript (Dashboard) |
-| **직책** | Senior Software Engineer |
 | **역할** | ● 다중 에이전트 동시 활동 수 Threshold 및 리소스 관리 시스템 구축 <br> ● 활동 패턴·역할·관심사를 동적으로 주입할 수 있는 에이전트 프레임워크 설계 <br> ● XAI (Grok), Perplexity AI를 활용한 트렌드 검색 및 관심 콘텐츠 생성 파이프라인 구축 <br> ● 마케팅 자동화 워크플로우 설계 및 Human-in-the-Loop (정책 변경, 관심사 주입, 페르소나 조정) 를 위한 요청/응답 파이프라인 설계 |
 | **성과** | ● 전체 시스템 구축 완료 및 운영 적용 <br> ● 활동 상태 확인 및 여러가지 상태 변경을 위한 대시보드 구현 완료 <br> ● 마케터들의 실 사용 니즈 충족 |
 
@@ -78,7 +77,6 @@ pdf: true
 | | |
 |---|---|
 | **내용** | ISO 27001 인증 취득을 위한 Compliance & Security 체계 수립 |
-| **직책** | Compliance & Security 책임자 |
 | **역할** | ● 자격 취득 및 정책 관리를 위한 관리 체계 수립 <br> ● 회사 규모에 맞는 인프라 설계 가이드라인 수립 및 정책 수행 <br> ● 자격 취득을 위한 로드맵 수립 및 업무 분배 |
 | **성과** | ● ISO 27001 인증 취득 로드맵 수립 및 업무 분배 완료 <br> ● '26년 06월 신청 완료 예정 |
 
@@ -88,7 +86,6 @@ pdf: true
 |---|---|
 | **내용** | 기존 AI 기반 리스크 분석 기능의 정확도 및 구조 고도화 |
 | **기술** | Python, FastAPI, MySQL, OpenAI API, Prompt Engineering, Agent Design |
-| **직책** | Senior Software Engineer |
 | **역할** | ● 리스크 분석 정확도 향상을 위한 프롬프트 엔지니어링 진행 <br> ● 전체 문서 일괄 분석 로직을 페이지 단위로 분리하고, 문장 연속성을 위해 목표 페이지의 앞뒤 문맥을 포함하여 리스크 항목별 분석 수행 <br> ● API temperature 및 분석 정책 튜닝을 위한 프롬프트 수정 <br> ● 오탐 배제 및 응답 형식 제어를 위한 few-shot 예시 추가 및 가이드라인 작성 <br> ● 가이드라인 준수 여부를 검증하는 editor agent 추가 및 응답 포맷 파싱 실패 대비 fallback parser 구현 |
 | **성과** | ● 리스크 분석 정확도 개선 및 오탐율 감소 <br> ● 페이지 단위 분석으로 대용량 문서 처리 안정성 확보 |
 
@@ -98,7 +95,6 @@ pdf: true
 |---|---|
 | **내용** | 미국향 AI 기반 Teaming Partner 서비스 Infra 및 Server 설계 및 개발 |
 | **기술** | Go, Gin, FX, MySQL, ElasticSearch, AWS, OpenAI API, HAProxy |
-| **직책** | Senior Software Engineer |
 | **역할** | ● Application (From network to DB) 구조 설계 <br> ● LLM API 연동 및 AI 응답 파이프라인 설계 <br> ● 데이터 구조 및 형식 정의 및 설계 <br> ● Service Business Logic 설계 및 구현 |
 | **성과** | ● '25년 8월 미국 마켓에 서비스 런칭 완료 <br> ● 6주간 현지 적용을 위한 출장을 통해 미국내 고객 5개사 유치 및 확장 진행중 |
 
@@ -108,7 +104,6 @@ pdf: true
 |---|---|
 | **내용** | Enterprise (Thermofisher) 를 위한 솔루션 개발 및 개선 작업 |
 | **기술** | Python, FastAPI, Temporal, MySQL, ElasticSearch, Docker Swarm, HAProxy |
-| **직책** | Senior Software Engineer |
 | **역할** | ● 고객사 기획팀 및 실 사용 부서들과 매주 업무 논의 미팅 진행, 요구사항 파악 및 서비스 고도화 반영 <br> ● API 서비스를 위한 문서/개발 정책 수립 및 관리 <br> ● 개별 공고를 위한 프로젝트 관리 기능 설계 및 개발 <br> ● 규격서 분석, 프로젝트 결재/승인 프로세스 설계 및 개발 <br> ● Temporal 을 사용한 Batch 설계 및 관리 템플릿 설계 및 적용 <br> ● Internal 배포를 위한 노드 및 네트워크 구조 설계 및 구축 <br> ● 보안 및 취약점 점검을 위한 조치 및 감사 대응 |
 | **성과** | ● 고객사 기획팀 및 실 사용 부서 대상 프로젝트 이관 및 기술 전달 세미나 완료 <br> ● 해당 프로젝트가 고객사 내부 발표회 1위 달성 <br> ● '26년 Phase 2 계약을 위한 파트너사로 선정 |
 
@@ -121,7 +116,6 @@ pdf: true
 | | |
 |---|---|
 | **내용** | 기업부설연구소 관리 및 내외부 요청사항 대응 |
-| **직책** | 기업부설연구소 연구소장 및 신사업개발실 실장 겸임 |
 | **역할** | ● 연구소 인원 및 비용 관리 <br> ● 연구 과제 선정 및 진행 관리 <br> ● 기업 실사 대응 (증적자료, 실사 인터뷰) <br> ● IPO 를 위한 상장예비심사 자료 작성 및 대응 |
 | **성과** | ● 연구소 자격 유지 연장 및 안정적인 과제 관리 <br> ● '24년 7월, 상장예비심사신청 완료 <br> ● '25년 3월, 코스닥 상장 완료 |
 
